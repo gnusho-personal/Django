@@ -1,4 +1,4 @@
-#!/Users/seongjun-o/Desktop/smartkey/mv/bin/python3
+#!/Users/seongjun-o/Desktop/knocktalkHYWEP/smartkey/mv/bin/python3
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
