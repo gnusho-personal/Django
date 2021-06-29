@@ -5,38 +5,19 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 import json, datetime
 
-def print_response_log(response):
-    print('Response Done')
-
-    header_dict = {}
-    for name in response.headers:
-        header_dict[name] = response.headers[name]
-
-    json_header = json.dumps(header_dict, default=json_default, indent='\t')
-    print('Header: ', json_header)
-
-    print('Code: ', response.status_code)
-
-    print('Body: ', response.content)
-
-    print('Time: ', datetime.datetime.now())
-    print('\n')
-
-
 class Hello_World(APIView):
-    #Post
+    # Post
     def post(self, request):
-
         print_request_log(request)
+        
         a = request.GET.get('a', -1)
         response = HttpResponse('Hello World Post', status = status.HTTP_200_OK)
         print_response_log(response)
 
         return response
 
-    #Get
+    # Get
     def get(self, request, **kwargs):
-
         print_request_log(request)
         
         ret = 'Hello World Get'
@@ -50,9 +31,9 @@ class Hello_World(APIView):
         response = HttpResponse(ret, status = status.HTTP_200_OK)
         print_response_log(response)
 
-        return Response(ret, status = status.HTTP_200_OK)
+        return response
 
-    #Put
+    # Put
     def put(self, request, **kwargs):
 
         print_request_log(request)
@@ -67,9 +48,9 @@ class Hello_World(APIView):
         response = HttpResponse(ret, status = status.HTTP_200_OK)
         print_response_log(response)
 
-        return Response(ret, status = status.HTTP_200_OK)
+        return response
 
-    #Delete
+    # Delete
     def delete(self, request, **kwargs):
 
         print_request_log(request)
@@ -84,7 +65,7 @@ class Hello_World(APIView):
         response = HttpResponse(ret, status = status.HTTP_200_OK)
         print_response_log(response)
 
-        return Response(ret, status = status.HTTP_200_OK)
+        return response
 
 def json_default(value): 
     if isinstance(value, datetime.date): 
@@ -98,6 +79,7 @@ def json_default(value):
     raise TypeError('not JSON serializable')
 
 def print_request_log(request):
+
     print('Request Start')
     
     full_url = str(request.method) + str(request.get_full_path())
@@ -127,3 +109,20 @@ def print_request_log(request):
 
     print('Time: ', datetime.datetime.now())
     print('Request Done\n')
+
+def print_response_log(response):
+    print('Response Done')
+
+    header_dict = {}
+    for name in response.headers:
+        header_dict[name] = response.headers[name]
+
+    json_header = json.dumps(header_dict, default=json_default, indent='\t')
+    print('Header: ', json_header)
+
+    print('Code: ', response.status_code)
+
+    print('Body: ', response.content)
+
+    print('Time: ', datetime.datetime.now())
+    print('\n')
