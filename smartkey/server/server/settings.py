@@ -72,14 +72,8 @@ LOGGING = {
     'handlers': {
         'file': {
             'level': 'DEBUG',
-            'class': 'logging.RotatingFileHandler',
+            'class': 'logging.FileHandler',
             'filename': '/home/ubuntu/knocktalkHYWEP/smartkey/server/debug.log',
-            'mode': 'a',
-            'maxBytes': 1024,
-            'backupCount': 5,
-            'encoding': None,
-            'delay': False,
-            'errors': None,
         },
     },
     'loggers': {
