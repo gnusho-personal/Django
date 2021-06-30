@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'server.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'hywep-rds',
+        'NAME': 'test',
         'USER': 'admin',
         'PASSWORD': 'knocktalkHYWEP',
         'HOST': 'hywep-rds.c8jl7lyhcvv7.us-east-2.rds.amazonaws.com',
