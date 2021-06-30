@@ -27,7 +27,7 @@ CSRF_COOKIE_SECURE = True
 SECRET_KEY = 'django-insecure-8!(y^gim9$fvx_a%yh!-tabk_q%4a%sk68bwd1-ug0r)2ib-@-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    #'request_logging.middleware.LoggingMiddleware',
+    'request_logging.middleware.LoggingMiddleware',
     'server.middleware.ResponseFormattingMiddleware',
 ]
 
@@ -70,15 +70,15 @@ LOGGING = {
         },
     },
     'handlers': {
-        'console': {
+        'file': {
             'level': 'DEBUG',
-            'class': 'logging.StreamHandler',
-            'formatter': 'format1',
+            'class': 'logging.FileHandler',
+            'filename': '/home/ubuntu/knocktalkHYWEP/smartkey/server/debug.log',
         },
     },
     'loggers': {
         'django.request': {
-            'handlers': ['console'],
+            'handlers': ['file'],
             'level': 'DEBUG',  # change debug level as appropiate
             'propagate': False,
         },
