@@ -17,6 +17,7 @@ class ResponseFormattingMiddleware:
             response = self.get_response(request)
         if hasattr(self, 'process_response'):
             response = self.process_response(request, response)
+        print(request.headers)
         return response
 
     def process_response(self, request, response):
