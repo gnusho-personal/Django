@@ -1,5 +1,5 @@
 import re
-import rest_framework.status import is_client_error, is_success
+from rest_framework.status import is_client_error, is_success
 
 class ResponseFormattingMiddleware:
     METHOD = ('GET', 'POST', 'PUT', 'PATCH', 'DELETE')
