@@ -14,9 +14,9 @@ class ResponseFormattingMiddleware:
         ]
 
     def __call__(self, request):
-        logging.basicConfig(format = '[%(asctime)s] %(levelname)s [%(name)s:%(lineno)s] %(message)s')
+        logging.basicConfig(format = '%(asctime)s \n %(message)s')
         logging.debug('request start')
-        self.print_request_log(request)
+        #self.print_request_log(request)
 
         response = None
         
@@ -26,7 +26,7 @@ class ResponseFormattingMiddleware:
         if hasattr(self, 'process_response'):
             response = self.process_response(request, response)
         
-        self.print_response_log(response)
+        #self.print_response_log(response)
         return response
 
     def json_default(self, value): 
