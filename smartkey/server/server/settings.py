@@ -57,6 +57,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'request_logging.middleware.LoggingMiddleware',
+    'server.middleware.ResponseFormattingMiddleware',
 ]
 
 LOGGING = {
@@ -64,10 +65,10 @@ LOGGING = {
     'disable_existing_loggers': False,
     'formatters': {
         'format1': {
-            'fortmat': '[%(asctime)s] %(levelname)s [%(name)s:%(lineno)s %(message)s'
+            'fortmat': '[%(asctime)s] %(levelname)s [%(name)s:%(lineno)s] %(message)s',
             'datefmt': '%d/%b/%Y %H:%M:%S',
         },
-    }
+    },
     'handlers': {
         'console': {
             'level': 'DEBUG',
