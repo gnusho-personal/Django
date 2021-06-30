@@ -70,15 +70,10 @@ LOGGING = {
         },
     },
     'handlers': {
-        'console': {
-            'level': 'DEBUG',
-            'class': 'logging.StreamHandler',
-            'formatter': 'format1',
-        },
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': 'logs/debug.log',
+            'filename': '/home/ubuntu/knocktalkHYWEP/smartkey/server/debug.log',
         },
     },
     'loggers': {
