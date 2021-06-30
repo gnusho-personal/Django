@@ -75,10 +75,15 @@ LOGGING = {
             'class': 'logging.StreamHandler',
             'formatter': 'format1',
         },
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': '/path/to/django/debug.log',
+        },
     },
     'loggers': {
         'django.request': {
-            'handlers': ['console'],
+            'handlers': ['file'],
             'level': 'DEBUG',  # change debug level as appropiate
             'propagate': False,
         },

@@ -7,6 +7,7 @@ class ResponseFormattingMiddleware:
 
     def __init__(self, get_response):
         self.get_response = get_response
+        
         self.API_URLS = [
             re.compile(r'^(.*)/api'),
             re.compile(r'^api'),
@@ -14,11 +15,15 @@ class ResponseFormattingMiddleware:
 
     def __call__(self, request):
         self.print_request_log(request)
+        
         response = None
+        
         if not response:
             response = self.get_response(request)
+        
         if hasattr(self, 'process_response'):
             response = self.process_response(request, response)
+        
         self.print_response_log(response)
         return response
 

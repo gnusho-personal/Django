@@ -17,6 +17,8 @@ class Hello_World(APIView):
     # Get
     def get(self, request, **kwargs):
         
+        logging.debug('test debug log')
+
         ret = 'Hello World Get'
         if kwargs.get('pk') is not None:
             pk = kwargs.get('pk')
