@@ -63,9 +63,7 @@ class TestDB(APIView):
                 return HttpResponse(test_serializer.data, status = status.HTTP_200_OK)
             else:
                 return HttpResponse(test_serializer.errors, status = status.HTTP_400_BAD_REQUEST)
-        
-    '''
-    '''
+
     # Put
     def put(self, request, **kwargs):
         
@@ -73,8 +71,7 @@ class TestDB(APIView):
         response = HttpResponse(ret, status = status.HTTP_200_OK)
 
         return response
-    '''
-    '''
+
     def delete(self, request, **kwargs):
         if kwargs.get('pk') is None:
             return HttpResponse("invalid request", status = status.HTTP_400_BAD_REQUEST)
@@ -84,4 +81,4 @@ class TestDB(APIView):
             q = test_db.objects.get(id = pk)
             q.delete()
             return HttpResponse("delete " + pk + " ok!", status = status.HTTP_200_OK)
-    '''
+'''
