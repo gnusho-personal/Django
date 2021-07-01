@@ -26,20 +26,24 @@ class TestDB(APIView):
     # Get
     # Get /pk
     def get(self, request, **kwargs):
-        test_serializer = None
         if kwargs.get('pk') is None:
             q = test_db.objects.all()
             test_serializer = test_serializer(q, many = True)
+            if test_serializer.is_valid():
+                test_serializer.save()
+                return HttpResponse(test_serializer.data, status = status.HTTP_200_OK)
+            else:
+                return HttpResponse(test_serializer.errors, status = status.HTTP_400_BAD_REQUEST)    
         else:
             pk = kwargs.get('pk')
             q = test_db.objects.get(id = pk)
             test_serializer = test_serializer(q)
 
-        if test_serializer.is_valid():
-            test_serializer.save()
-            return HttpResponse(test_serializer.data, status = status.HTTP_200_OK)
-        else:
-            return HttpResponse(test_serializer.errors, status = status.HTTP_400_BAD_REQUEST)
+            if test_serializer.is_valid():
+                test_serializer.save()
+                return HttpResponse(test_serializer.data, status = status.HTTP_200_OK)
+            else:
+                return HttpResponse(test_serializer.errors, status = status.HTTP_400_BAD_REQUEST)
         
     
     '''
