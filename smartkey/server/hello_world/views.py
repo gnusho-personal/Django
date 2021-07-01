@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from rest_framework import status, viewsets
 from rest_framework.views import APIView
 from rest_framework.response import Response
-import json, datetime, logging
+import json, datetime, logging, time
 
 logger = logging.getLogger(__name__)
 
@@ -13,13 +13,12 @@ class Hello_World(APIView):
         
         a = request.GET.get('a', -1)
         response = HttpResponse('Hello World Post', status = status.HTTP_200_OK)
+        time.sleep(10)
 
         return response
 
     # Get
     def get(self, request, **kwargs):
-        
-        logger.debug('test debug log')
 
         ret = 'Hello World Get'
         if kwargs.get('pk') is not None:
@@ -30,6 +29,7 @@ class Hello_World(APIView):
         ret += ' ' + str(a)
         
         response = HttpResponse(ret, status = status.HTTP_200_OK)
+        time.sleep(100)
 
         return response
 
