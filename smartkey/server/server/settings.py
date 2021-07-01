@@ -44,9 +44,15 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'sslserver',
+    'logging_middleware',
 
     'hello_world',
 ]
+
+DJANGO_LOGGING_MIDDLEWARE = {
+    'DEFAULT_FORMAT': False,
+    'MESSAGE_FORMAT': "<b><green>{time}</green> <cyan>{message}</cyan></b>"
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -56,10 +62,14 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'logging_middleware.middlewares.DjangoLoggingMiddleware',
     #'request_logging.middleware.LoggingMiddleware',
-    'server.middleware.ResponseFormattingMiddleware',
+    #'server.middleware.ResponseFormattingMiddleware',
 ]
 
+
+
+"""
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -84,6 +94,7 @@ LOGGING = {
         },
     },
 }
+"""
 
 ROOT_URLCONF = 'server.urls'
 
