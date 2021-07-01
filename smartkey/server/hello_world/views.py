@@ -13,6 +13,7 @@ class Hello_World(APIView):
         
         a = request.GET.get('a', -1)
         response = HttpResponse('Hello World Post', status = status.HTTP_200_OK)
+        sleep(1)
 
         return response
 
@@ -30,6 +31,7 @@ class Hello_World(APIView):
         ret += ' ' + str(a)
         
         response = HttpResponse(ret, status = status.HTTP_200_OK)
+        sleep(10)
 
         return response
 
