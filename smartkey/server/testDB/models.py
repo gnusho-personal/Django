@@ -8,7 +8,7 @@ class test_db(models.Model):
     test_char = models.CharField(max_length = 30)
     test_email = models.EmailField(max_length = 254)
     test_integer = models.IntegerField()
-    test_float = models.IntegerField()
+    test_float = models.FloatField()
 
     def __str__(self):
         return f'[{self.pk}] {self.test_char}'
