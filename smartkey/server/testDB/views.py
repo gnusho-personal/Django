@@ -13,17 +13,17 @@ class TestViewSet(ModelViewSet):
     queryset = test_db.objects.all()
     serializer_class = TestSerializer   
 
-    test_list = TestViewSet.as_view({
-        'get': 'list',
-        'post': 'create',
-    })
+test_list = TestViewSet.as_view({
+    'get': 'list',
+    'post': 'create',
+})
 
-    test_detail = TestViewSet.as_view({
-        'get': 'retrieve',
-        'put': 'update',
-        'patch': 'partial_update',
-        'delete': 'destroy',
-    })
+test_detail = TestViewSet.as_view({
+    'get': 'retrieve',
+    'put': 'update',
+    'patch': 'partial_update',
+    'delete': 'destroy',
+})
 
 '''
 class TestDB(APIView):
