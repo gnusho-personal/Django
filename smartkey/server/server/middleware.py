@@ -17,6 +17,8 @@ class LoggingMiddleware:
 
     def __call__(self, request):
         print("*** in loggingmiddleware ***\n")
+        print(logger)
+        print(__name__)
         logger.debug('request start')
         #self.print_request_log(request)
 
