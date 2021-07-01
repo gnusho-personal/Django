@@ -65,8 +65,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    #'logging_middleware.middlewares.DjangoLoggingMiddleware',
-    #'request_logging.middleware.LoggingMiddleware',
     'server.middleware.LoggingMiddleware',
 ]
 
@@ -80,11 +78,6 @@ LOGGING = {
         },
     },
     'handlers': {
-        'file': {
-            'level': 'DEBUG',
-            'class': 'logging.FileHandler',
-            'filename': '/home/ubuntu/knocktalkHYWEP/smartkey/server/debug.log',
-        },
         'console': {
             'level': 'DEBUG',
             'class': 'logging.StreamHandler',
