@@ -14,9 +14,9 @@ class ResponseFormattingMiddleware:
         ]
 
     def __call__(self, request):
-        logging.basicConfig(format = '%(asctime)s \n %(message)s')
+        logging.basicConfig(format = '%(asctime)s %(message)s')
         logging.debug('request start')
-        #self.print_request_log(request)
+        self.print_request_log(request)
 
         response = None
         
