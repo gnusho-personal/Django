@@ -7,7 +7,7 @@ path = '/home/ubuntu/knocktalkHYWEP/smartkey/server/debug.log'
 
 logger = logging.getLogger('django.request')
 logger.setLevel(logging.INFO)
-handler = RotatingFileHandler(path, maxBytes = 20, backupCount = 5)
+handler = RotatingFileHandler(path, maxBytes = 1024, backupCount = 5)
 logger.addHandler(handler)
 
 class LoggingMiddleware:
@@ -51,15 +51,14 @@ class LoggingMiddleware:
         print('Request Start')
     
         full_url = str(request.method) + str(request.get_full_path())
-        print('URL: ', full_url)
+        logger.info('URL: ', full_url)
 
         header_dict = {}
         for name in request.headers:
             header_dict[name] = request.headers[name]
 
         json_header = json.dumps(header_dict, default=self.json_default, indent='\t')
-        logger.info('Header: ')
-        logger.info(json_header)
+        logger.info('Header: ', json_header)
         #print('Header: ', json_header)
         # Meta에는 header의 모든 내용이 저장되있음
         # 위의 코드를 사용시 모든 item들을 tuple 형태로 print할 수 있음
@@ -67,8 +66,7 @@ class LoggingMiddleware:
         b = request.body.decode('utf-8')
         if len(b) == 0: b = '{}'
         json_body = json.loads(b)
-        logger.info('Body: ')
-        logger.info(json.dumps(json_body, indent='\t'))
+        logger.info('Body: ', json.dumps(json_body, indent='\t'))
         #print('Body: ', json.dumps(json_body, indent='\t'))
         # 보통은 serializer를 이용해서 구현
         # 현재는 model이 만들어지지 않았으니까 우선은 이렇게 사용
@@ -78,9 +76,9 @@ class LoggingMiddleware:
             cookie_dict[name] = request.COOKIES[name]
         json_cookie = json.dumps(cookie_dict, default=self.json_default, indent='\t')
         
-        print('Cookie: ', json_cookie)
+        logger.info('Cookie: ', json_cookie)
 
-        print('Time: ', datetime.datetime.now())
+        logger.info('Time: ', datetime.datetime.now())
         print('Request Done\n')
 
     def print_response_log(self, response):

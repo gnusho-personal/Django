@@ -70,7 +70,6 @@ MIDDLEWARE = [
     'server.middleware.LoggingMiddleware',
 ]
 
-'''
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': True,
@@ -100,8 +99,6 @@ LOGGING = {
         },
     },
 }
-'''
-
 
 ROOT_URLCONF = 'server.urls'
 
