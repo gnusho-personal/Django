@@ -1,7 +1,7 @@
 from rest_framework.status import is_client_error, is_success
 from rest_framework.response import Response
 import json, re, datetime, logging
-from logging.handlers import RotatingFileHandler, StreamHandler
+from logging.handlers import RotatingFileHandler
 
 path = '/home/ubuntu/knocktalkHYWEP/smartkey/server/debug.log'
 
@@ -11,7 +11,7 @@ logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter('Time & Level: %(asctime)s;%(levelname)s\n %(message)s')
 
 # log를 console에 print하는 handler 설정
-stream_handler = StreamHandler()
+stream_handler = logging.StreamHandler()
 stream_handler.setLevel(logging.DEBUG)
 stream_handler.setFormatter(formatter)
 
