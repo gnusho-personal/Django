@@ -15,8 +15,8 @@ class ResponseFormattingMiddleware:
 
     def __call__(self, request):
         logging.basicConfig(format = '%(asctime)s %(message)s')
-        logging.debug('request start')
-        self.print_request_log(request)
+        logging.info('request start')
+        #self.print_request_log(request)
 
         response = None
         
@@ -27,7 +27,7 @@ class ResponseFormattingMiddleware:
             response = self.process_response(request, response)
         
         #self.print_response_log(response)
-        logging.debug('request done')
+        logging.info('request done')
         return response
 
     def json_default(self, value): 
