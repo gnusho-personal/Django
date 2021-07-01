@@ -49,10 +49,12 @@ INSTALLED_APPS = [
     'hello_world',
 ]
 
+"""
 DJANGO_LOGGING_MIDDLEWARE = {
     'DEFAULT_FORMAT': False,
     'MESSAGE_FORMAT': "<b><green>{time}</green> <cyan>{message}</cyan></b>"
 }
+"""
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -68,8 +70,6 @@ MIDDLEWARE = [
 ]
 
 
-
-"""
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -85,16 +85,21 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'filename': '/home/ubuntu/knocktalkHYWEP/smartkey/server/debug.log',
         },
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'format1'
+        },
     },
     'loggers': {
         'django.request': {
-            'handlers': ['file'],
+            'handlers': ['console'],
             'level': 'DEBUG',  # change debug level as appropiate
             'propagate': False,
         },
     },
 }
-"""
+
 
 ROOT_URLCONF = 'server.urls'
 

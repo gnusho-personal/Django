@@ -2,7 +2,7 @@ from rest_framework.status import is_client_error, is_success
 from rest_framework.response import Response
 import json, re, datetime, logging
 
-logging.basicConfig(format = '%(asctime)s %(message)s')
+logger = logging.getLogger(__name__)
 
 class LoggingMiddleware:
     METHOD = ('GET', 'POST', 'PUT', 'PATCH', 'DELETE')
@@ -16,7 +16,7 @@ class LoggingMiddleware:
         ]
 
     def __call__(self, request):
-        logging.info('request start')
+        logger.debug('request start')
         #self.print_request_log(request)
 
         response = None
@@ -28,7 +28,7 @@ class LoggingMiddleware:
             response = self.process_response(request, response)
         
         #self.print_response_log(response)
-        logging.info('request done')
+        logger.debug('request done')
         return response
 
     def json_default(self, value): 
