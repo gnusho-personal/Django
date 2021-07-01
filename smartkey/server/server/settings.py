@@ -77,16 +77,9 @@ LOGGING = {
             'datefmt': '%d/%b/%Y %H:%M:%S',
         },
     },
-    'handlers': {
-        'console': {
-            'level': 'DEBUG',
-            'class': 'logging.StreamHandler',
-            'formatter': 'format1'
-        },
-    },
     'loggers': {
         'django.request': {
-            'handlers': ['console'],
+            'handlers': [],
             'level': 'DEBUG',  # change debug level as appropiate
             'propagate': False,
         },

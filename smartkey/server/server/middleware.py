@@ -7,7 +7,7 @@ path = '/home/ubuntu/knocktalkHYWEP/smartkey/server/debug.log'
 
 logger = logging.getLogger('django.request')
 
-formatter = logging.Formatter('Time & Level: %(asctime)s;%(levelname)s\n %(message)s')
+formatter = logging.Formatter('Time: %(asctime)s; Level: %(levelname)s\n %(message)s')
 
 # log를 console에 print하는 handler 설정
 stream_handler = logging.StreamHandler()
@@ -62,17 +62,16 @@ class LoggingMiddleware:
 
     def print_request_log(self, request):
 
-        print('Request Start')
+        #print('Request Start')
     
         full_url = str(request.method) + str(request.get_full_path())
-        print('URL: ', full_url)
+        #print('URL: ', full_url)
 
         header_dict = {}
         for name in request.headers:
             header_dict[name] = request.headers[name]
 
         json_header = json.dumps(header_dict, default=self.json_default, indent='\t')
-        logger.info(json_header)
         #print('Header: ', json_header)
         # Meta에는 header의 모든 내용이 저장되있음
         # 위의 코드를 사용시 모든 item들을 tuple 형태로 print할 수 있음
@@ -90,11 +89,21 @@ class LoggingMiddleware:
             cookie_dict[name] = request.COOKIES[name]
         json_cookie = json.dumps(cookie_dict, default=self.json_default, indent='\t')
         
-        print('Cookie: ', json_cookie)
+        #print('Cookie: ', json_cookie)
 
-        print('Time: ', datetime.datetime.now())
+        #print('Time: ', datetime.datetime.now())
         
-        print('Request Done\n')
+        #print('Request Done\n')
+
+        log_str = ''
+        log_str += 'Request Start\n'
+        log_str += 'URL: ' + full_url
+        log_str += 'Header:' + json_header
+        log_str += 'Body:' + json_body
+        log_str += 'Cookie:' + json_cookie
+        log_str += 'Request Done\n'
+
+        logger.info(log_str)
 
     def print_response_log(self, response):
         print('Response Done')
