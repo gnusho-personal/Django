@@ -1,8 +1,14 @@
 from rest_framework.status import is_client_error, is_success
 from rest_framework.response import Response
 import json, re, datetime, logging
+from logging.handlers import RotatingFileHandler
+
+path = '/home/ubuntu/knocktalkHYWEP/smartkey/server/debug.log'
 
 logger = logging.getLogger('django.request')
+logger.setLevel(logging.INFO)
+handler = RotatingFileHandler(path, maxBytes = 20, backupCount = 5)
+logger.addHandler(handler)
 
 class LoggingMiddleware:
     METHOD = ('GET', 'POST', 'PUT', 'PATCH', 'DELETE')
@@ -16,8 +22,6 @@ class LoggingMiddleware:
         ]
 
     def __call__(self, request):
-        print(logger)
-        logger.info('request info')
         self.print_request_log(request)
 
         response = None
@@ -29,7 +33,6 @@ class LoggingMiddleware:
             response = self.process_response(request, response)
         
         self.print_response_log(response)
-        logger.info('request done')
         return response
 
     def json_default(self, value): 

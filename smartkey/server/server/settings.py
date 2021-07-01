@@ -70,13 +70,13 @@ MIDDLEWARE = [
     'server.middleware.LoggingMiddleware',
 ]
 
-
+'''
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': True,
     'formatters': {
         'format1': {
-            'fortmat': '[%(asctime)s] %(levelname)s [%(name)s:%(lineno)s] %(message)s',
+            'fortmat': '[%(asctime)s] %(levelname)s %(message)s',
             'datefmt': '%d/%b/%Y %H:%M:%S',
         },
     },
@@ -94,12 +94,13 @@ LOGGING = {
     },
     'loggers': {
         'django.request': {
-            'handlers': ['console', 'file'],
+            'handlers': ['console'],
             'level': 'DEBUG',  # change debug level as appropiate
             'propagate': False,
         },
     },
 }
+'''
 
 
 ROOT_URLCONF = 'server.urls'
