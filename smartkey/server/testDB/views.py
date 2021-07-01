@@ -28,7 +28,7 @@ class TestDB(APIView):
     def get(self, request, **kwargs):
         if kwargs.get('pk') is None:
             q = test_db.objects.all()
-            test_serializer = TestSerializer(q, many = True)
+            test_serializer = TestSerializer(data = q, many = True)
             if test_serializer.is_valid():
                 test_serializer.save()
                 return HttpResponse(test_serializer.data, status = status.HTTP_200_OK)
@@ -37,10 +37,10 @@ class TestDB(APIView):
         else:
             pk = kwargs.get('pk')
             q = test_db.objects.get(id = pk)
-            print("\n\n\n\n\")
+            print("\n\n\n\n")
             print(q)
-            print("\n\n\n\n\")
-            test_serializer = TestSerializer(q)
+            print("\n\n\n\n")
+            test_serializer = TestSerializer(data = q)
 
             if test_serializer.is_valid():
                 test_serializer.save()
@@ -58,11 +58,14 @@ class TestDB(APIView):
 
         return response
 
-    # Delete
-    def delete(self, request, **kwargs):
-        ret = ""
-
-        response = HttpResponse(ret, status = status.HTTP_200_OK)
-
-        return response
     '''
+    def delete(self, request, **kwargs):
+        if kwargs.get('pk') is None:
+            return HttpResponse("invalid request", status = status.HTTP_400_BAD_REQUEST)
+
+        else:
+            pk = kwargs.get('pk')
+            q = test_db.objects.get(id = pk)
+            q.delete()
+            return HttpResponse("delete " + pk + " ok!", status = status.HTTP_200_OK)
+    
