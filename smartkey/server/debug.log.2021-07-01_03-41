@@ -1,0 +1,121 @@
+Time: 2021-07-01 03:41:16,112; Level: INFO
+ Request Start
+URL: DELETE/hw/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "5e9001b4-d6d7-4737-83da-d628761dcece",
+	"Host": "support.keyfreecar.co.kr:8000",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-01 03:41:16,114; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8",
+	"Vary": "Accept",
+	"Allow": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'Hello World Del -1'
+
+Time: 2021-07-01 03:41:24,509; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8",
+	"Vary": "Accept",
+	"Allow": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'Hello World Get -1'
+
+Time: 2021-07-01 03:41:43,165; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8",
+	"Vary": "Accept",
+	"Allow": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'Hello World Get -1'
+
+Time: 2021-07-01 03:45:08,689; Level: INFO
+ Request Start
+URL: GET/hw/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "dc20ff7f-51f5-486e-ad35-aae82d2ac11c",
+	"Host": "support.keyfreecar.co.kr:8000",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-01 03:46:02,604; Level: INFO
+ Request Start
+URL: GET/hw/
+Header:{
+	"Content-Length": "827",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "a51a73bc-37c9-485f-a63b-c05fee6495ad",
+	"Host": "support.keyfreecar.co.kr:8000",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{
+	"squadName": "Super hero squad",
+	"homeTown": "Metro City",
+	"formed": 2016,
+	"secretBase": "Super tower",
+	"active": true,
+	"members": [
+		{
+			"name": "Molecule Man",
+			"age": 29,
+			"secretIdentity": "Dan Jukes",
+			"powers": [
+				"Radiation resistance",
+				"Turning tiny",
+				"Radiation blast"
+			]
+		},
+		{
+			"name": "Madame Uppercut",
+			"age": 39,
+			"secretIdentity": "Jane Wilson",
+			"powers": [
+				"Million tonne punch",
+				"Damage resistance",
+				"Superhuman reflexes"
+			]
+		},
+		{
+			"name": "Eternal Flame",
+			"age": 1000000,
+			"secretIdentity": "Unknown",
+			"powers": [
+				"Immortality",
+				"Heat Immunity",
+				"Inferno",
+				"Teleportation",
+				"Interdimensional travel"
+			]
+		}
+	]
+}
+Cookie:{}
+Request Done
+
