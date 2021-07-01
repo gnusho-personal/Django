@@ -27,6 +27,7 @@ class ResponseFormattingMiddleware:
             response = self.process_response(request, response)
         
         #self.print_response_log(response)
+        logging.debug('request done')
         return response
 
     def json_default(self, value): 
