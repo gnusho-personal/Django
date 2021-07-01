@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from rest_framework import status, viewsets
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from rest_framework.parsers import JSONParser
 from .models import test_db
 from .serializers import TestSerializer
 import json, datetime, logging, time
@@ -13,10 +14,11 @@ class TestDB(APIView):
     # Post
     def post(self, request):
         # body에서 정보를 뽑아와서 object를 save할 예정
+        '''
         b = request.body.decode('utf-8')
         if len(b) == 0: b = '{}'
         json_body = json.loads(b)
-
+        '''
         '''
         test_db(
             test_char = json_body['test_char'],
@@ -26,7 +28,11 @@ class TestDB(APIView):
         ).save()
         '''
 
-        test_serializer = TestSerializer(data = request.data)
+        #test_serializer = TestSerializer(data = request.data)
+
+        data = JSONParser().parse(request)
+        print(data)
+        test_serializer = TestSerializer(data = data)
 
         if test_serializer.is_valid():
             test_serializer.save()
