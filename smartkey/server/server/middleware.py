@@ -110,7 +110,7 @@ class LoggingMiddleware:
         log_str = ''
         log_str += 'Response Done\n'
         log_str += 'Header:' + json_header + '\n'
-        log_str += 'Code:' + response.status_code + '\n'
+        log_str += 'Code:' + str(response.status_code) + '\n'
         log_str += 'Body:' + json_body + '\n'
 
         logger.info(log_str)
