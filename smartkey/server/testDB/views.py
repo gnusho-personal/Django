@@ -37,6 +37,9 @@ class TestDB(APIView):
         else:
             pk = kwargs.get('pk')
             q = test_db.objects.get(id = pk)
+            print("\n\n\n\n\")
+            print(q)
+            print("\n\n\n\n\")
             test_serializer = TestSerializer(q)
 
             if test_serializer.is_valid():
