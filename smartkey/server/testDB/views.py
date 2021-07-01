@@ -27,15 +27,15 @@ class TestDB(APIView):
         json_body_tmp = json.loads(b)
         json_body = json.dumps(json_body_tmp, indent='\t')
 
-        print("\n\n\n\n")
-        print(json_body)
-        print("\n\n\n\n")
+        #print("\n\n\n\n")
+        #print(json_body)
+        #print("\n\n\n\n")
 
-        testdb(
+        test_db(
             test_char = json_body['test_char'],
             test_email = json_body['test_email'],
-            test_integer = json_body['test_integer'],
-            test_float = json_body['test_float']
+            test_integer = int(json_body['test_integer']),
+            test_float = float(json_body['test_float'])
         ).save()
 
         response = HttpResponse("well post", status = status.HTTP_200_OK)
