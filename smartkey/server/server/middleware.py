@@ -18,7 +18,7 @@ stream_handler.setFormatter(formatter)
 # backupcout 만큼 backupfile 생성 // debug.log에 .(숫자) 넣어서 파일 만들어줌 필요하면 자동으로 숫자를 뒤로 밀어줌
 
 #file_handler = RotatingFileHandler(path, maxBytes = 1024 * 4, backupCount = 5)
-file_handler = TimedRotatingFileHandler(path, when = 'M', interval = 5, backupCount = 7)
+file_handler = TimedRotatingFileHandler(path, when = 'midnight', interval = 1, backupCount = 7)
 file_handler.setLevel(logging.INFO)
 file_handler.setFormatter(formatter)
 
