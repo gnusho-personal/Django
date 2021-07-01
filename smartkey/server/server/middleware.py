@@ -1,9 +1,10 @@
 from rest_framework.status import is_client_error, is_success
 from rest_framework.response import Response
-import json, re, datetime, logging
+import json, re, datetime
+from logging import getLogger
 
 logging.basicConfig(format = '%(asctime)s %(message)s')
-logger = logging.getLogger(__name__)
+logger = getLogger('django.request')
 
 class LoggingMiddleware:
     METHOD = ('GET', 'POST', 'PUT', 'PATCH', 'DELETE')
@@ -17,7 +18,11 @@ class LoggingMiddleware:
         ]
 
     def __call__(self, request):
-        logger.info('request start')
+        print(logger)
+        logger.info('request info')
+        logger.error('request error')
+        logger.debug('request debug')
+        logger.warning('request warning')
         #self.print_request_log(request)
 
         response = None
