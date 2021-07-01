@@ -28,7 +28,7 @@ class TestDB(APIView):
     def get(self, request, **kwargs):
         if kwargs.get('pk') is None:
             q = test_db.objects.all()
-            test_serializer = test_serializer(q, many = True)
+            test_serializer = TestSerializer(q, many = True)
             if test_serializer.is_valid():
                 test_serializer.save()
                 return HttpResponse(test_serializer.data, status = status.HTTP_200_OK)
@@ -37,7 +37,7 @@ class TestDB(APIView):
         else:
             pk = kwargs.get('pk')
             q = test_db.objects.get(id = pk)
-            test_serializer = test_serializer(q)
+            test_serializer = TestSerializer(q)
 
             if test_serializer.is_valid():
                 test_serializer.save()
