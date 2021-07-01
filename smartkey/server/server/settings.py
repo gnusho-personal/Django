@@ -64,7 +64,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     #'logging_middleware.middlewares.DjangoLoggingMiddleware',
     #'request_logging.middleware.LoggingMiddleware',
-    'server.middleware.ResponseFormattingMiddleware',
+    'server.middleware.LoggingMiddleware',
 ]
 
 

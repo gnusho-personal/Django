@@ -2,7 +2,9 @@ from rest_framework.status import is_client_error, is_success
 from rest_framework.response import Response
 import json, re, datetime, logging
 
-class ResponseFormattingMiddleware:
+logging.basicConfig(format = '%(asctime)s %(message)s')
+
+class LoggingMiddleware:
     METHOD = ('GET', 'POST', 'PUT', 'PATCH', 'DELETE')
 
     def __init__(self, get_response):
@@ -14,7 +16,6 @@ class ResponseFormattingMiddleware:
         ]
 
     def __call__(self, request):
-        logging.basicConfig(format = '%(asctime)s %(message)s')
         logging.info('request start')
         #self.print_request_log(request)
 
