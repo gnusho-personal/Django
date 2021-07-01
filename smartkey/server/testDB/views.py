@@ -24,8 +24,8 @@ class TestDB(APIView):
         # body에서 정보를 뽑아와서 object를 save할 예정
         b = request.body.decode('utf-8')
         if len(b) == 0: b = '{}'
-        json_body_tmp = json.loads(b)
-        json_body = json.dumps(json_body_tmp, indent='\t')
+        json_body = json.loads(b)
+        #json_body = json.dumps(json_body_tmp, indent='\t')
 
         #print("\n\n\n\n")
         #print(json_body)
@@ -34,8 +34,8 @@ class TestDB(APIView):
         test_db(
             test_char = json_body['test_char'],
             test_email = json_body['test_email'],
-            test_integer = int(json_body['test_integer']),
-            test_float = float(json_body['test_float'])
+            test_integer = json_body['test_integer'],
+            test_float = json_body['test_float']
         ).save()
 
         response = HttpResponse("well post", status = status.HTTP_200_OK)
