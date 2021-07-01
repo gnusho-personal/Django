@@ -105,6 +105,9 @@ DATABASES = {
         'PASSWORD': 'knocktalkHYWEP',
         'HOST': 'hywep-rds.c8jl7lyhcvv7.us-east-2.rds.amazonaws.com',
         'PORT': '3306',
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        },
     }
 }
 
