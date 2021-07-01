@@ -16,7 +16,7 @@ stream_handler.setFormatter(formatter)
 
 # log를 file에 저장하면서 maxbytes만큼만 저장하고 다른 파일에 내용을 백없하는 rotatingfilehandler 설정
 # backupcout 만큼 backupfile 생성 // debug.log에 .(숫자) 넣어서 파일 만들어줌 필요하면 자동으로 숫자를 뒤로 밀어줌
-file_handler = RotatingFileHandler(path, maxBytes = 1024, backupCount = 5)
+file_handler = RotatingFileHandler(path, maxBytes = 1024 * 4, backupCount = 5)
 file_handler.setLevel(logging.INFO)
 file_handler.setFormatter(formatter)
 
@@ -90,10 +90,10 @@ class LoggingMiddleware:
         # log message 하나로 만들기
         log_str = ''
         log_str += 'Request Start\n'
-        log_str += 'URL: ' + full_url
-        log_str += 'Header:' + json_header
-        log_str += 'Body:' + json_body
-        log_str += 'Cookie:' + json_cookie
+        log_str += 'URL: ' + full_url + '\n'
+        log_str += 'Header:' + json_header + '\n'
+        log_str += 'Body:' + json_body + '\n'
+        log_str += 'Cookie:' + json_cookie + '\n'
         log_str += 'Request Done\n'
 
         logger.info(log_str)
@@ -106,14 +106,14 @@ class LoggingMiddleware:
             header_dict[name] = response.headers[name]
 
         json_header = json.dumps(header_dict, default=self.json_default, indent='\t')
-        print('Header: ', json_header)
 
-        print('Code: ', response.status_code)
+        log_str = ''
+        log_str += 'Response Done\n'
+        log_str += 'Header:' + json_header + '\n'
+        log_str += 'Code:' + response.status_code + '\n'
+        log_str += 'Body:' + json_body + '\n'
 
-        print('Body: ', response.content)
-
-        print('Time: ', datetime.datetime.now())
-        print('\n')
+        logger.info(log_str)
 
     def process_response(self, request, response):
         """

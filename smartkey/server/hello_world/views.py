@@ -13,14 +13,12 @@ class Hello_World(APIView):
         
         a = request.GET.get('a', -1)
         response = HttpResponse('Hello World Post', status = status.HTTP_200_OK)
-        time.sleep(1)
+        time.sleep(10)
 
         return response
 
     # Get
     def get(self, request, **kwargs):
-        
-        logger.debug('test debug log')
 
         ret = 'Hello World Get'
         if kwargs.get('pk') is not None:
@@ -31,7 +29,7 @@ class Hello_World(APIView):
         ret += ' ' + str(a)
         
         response = HttpResponse(ret, status = status.HTTP_200_OK)
-        time.sleep(10)
+        time.sleep(100)
 
         return response
 
