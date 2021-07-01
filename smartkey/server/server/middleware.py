@@ -6,7 +6,6 @@ from logging.handlers import RotatingFileHandler
 path = '/home/ubuntu/knocktalkHYWEP/smartkey/server/debug.log'
 
 logger = logging.getLogger('django.request')
-logger.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter('Time & Level: %(asctime)s;%(levelname)s\n %(message)s')
 
