@@ -16,6 +16,7 @@ class LoggingMiddleware:
         ]
 
     def __call__(self, request):
+        print("*** in loggingmiddleware ***\n")
         logger.debug('request start')
         #self.print_request_log(request)
 
@@ -29,6 +30,7 @@ class LoggingMiddleware:
         
         #self.print_response_log(response)
         logger.debug('request done')
+        print("*** out loggingmiddleware ***\n")
         return response
 
     def json_default(self, value): 
