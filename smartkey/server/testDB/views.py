@@ -64,7 +64,7 @@ class TestDB(APIView):
             else:
                 return HttpResponse(test_serializer.errors, status = status.HTTP_400_BAD_REQUEST)
         
-    
+    '''
     '''
     # Put
     def put(self, request, **kwargs):
@@ -73,7 +73,7 @@ class TestDB(APIView):
         response = HttpResponse(ret, status = status.HTTP_200_OK)
 
         return response
-
+    '''
     '''
     def delete(self, request, **kwargs):
         if kwargs.get('pk') is None:
