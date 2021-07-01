@@ -31,7 +31,7 @@ class TestDB(APIView):
         if test_serializer.is_valid():
             test_serializer.save()
             return HttpResponse(test_serializer.data, status = status.HTTP_200_OK)
-        else
+        else:
             return HttpResponse(test_serializer.errors, status = status.HTTP_400_BAD_REQUEST)
 
     # Get
