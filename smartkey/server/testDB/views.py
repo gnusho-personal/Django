@@ -14,24 +14,7 @@ class TestDB(APIView):
     # Post
     def post(self, request):
         # body에서 정보를 뽑아와서 object를 save할 예정
-        '''
-        b = request.body.decode('utf-8')
-        if len(b) == 0: b = '{}'
-        json_body = json.loads(b)
-        '''
-        '''
-        test_db(
-            test_char = json_body['test_char'],
-            test_email = json_body['test_email'],
-            test_integer = json_body['test_integer'],
-            test_float = json_body['test_float']
-        ).save()
-        '''
-
-        #test_serializer = TestSerializer(data = request.data)
-
         data = JSONParser().parse(request)
-        print(data)
         test_serializer = TestSerializer(data = data)
 
         if test_serializer.is_valid():
@@ -41,19 +24,23 @@ class TestDB(APIView):
             return HttpResponse(test_serializer.errors, status = status.HTTP_400_BAD_REQUEST)
 
     # Get
+    # Get /pk
     def get(self, request, **kwargs):
-
-        ret = 'Hello World Get'
-        if kwargs.get('pk') is not None:
+        test_serializer = None
+        if kwargs.get('pk') is None:
+            q = test_db.objects.all()
+            test_serializer = test_serializer(q, many = True)
+        else:
             pk = kwargs.get('pk')
-            ret += ' ' + str(pk)
-        
-        a = request.GET.get('a', -1)
-        ret += ' ' + str(a)
-        
-        response = HttpResponse(ret, status = status.HTTP_200_OK)
+            q = test_db.objects.get(id = pk)
+            test_serializer = test_serializer(q)
 
-        return response
+        if test_serializer.is_valid():
+            test_serializer.save()
+            return HttpResponse(test_serializer.data, status = status.HTTP_200_OK)
+        else:
+            return HttpResponse(test_serializer.errors, status = status.HTTP_400_BAD_REQUEST)
+        
     
     '''
     # Put
