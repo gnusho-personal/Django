@@ -31,6 +31,8 @@ class TestDB(APIView):
         print(json_body)
         print("\n\n\n\n")
 
+        response = HttpResponse("well post", status = status.HTTP_200_OK)
+
         return response
 
     '''
