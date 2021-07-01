@@ -1,8 +1,10 @@
 from rest_framework.status import is_client_error, is_success
 from rest_framework.response import Response
-import json, re, datetime
+import json, re, datetime, logging
 
-class ResponseFormattingMiddleware:
+logger = logging.getLogger('django.request')
+
+class LoggingMiddleware:
     METHOD = ('GET', 'POST', 'PUT', 'PATCH', 'DELETE')
 
     def __init__(self, get_response):
@@ -14,8 +16,10 @@ class ResponseFormattingMiddleware:
         ]
 
     def __call__(self, request):
+        print(logger)
+        logger.info('request info')
         self.print_request_log(request)
-        
+
         response = None
         
         if not response:
@@ -25,6 +29,7 @@ class ResponseFormattingMiddleware:
             response = self.process_response(request, response)
         
         self.print_response_log(response)
+        logger.info('request done')
         return response
 
     def json_default(self, value): 
@@ -50,14 +55,18 @@ class ResponseFormattingMiddleware:
             header_dict[name] = request.headers[name]
 
         json_header = json.dumps(header_dict, default=self.json_default, indent='\t')
-        print('Header: ', json_header)
+        logger.info('Header: ')
+        logger.info(json_header)
+        #print('Header: ', json_header)
         # Meta에는 header의 모든 내용이 저장되있음
         # 위의 코드를 사용시 모든 item들을 tuple 형태로 print할 수 있음
 
         b = request.body.decode('utf-8')
         if len(b) == 0: b = '{}'
         json_body = json.loads(b)
-        print('Body: ', json.dumps(json_body, indent='\t'))
+        logger.info('Body: ')
+        logger.info(json.dumps(json_body, indent='\t'))
+        #print('Body: ', json.dumps(json_body, indent='\t'))
         # 보통은 serializer를 이용해서 구현
         # 현재는 model이 만들어지지 않았으니까 우선은 이렇게 사용
 
@@ -65,6 +74,7 @@ class ResponseFormattingMiddleware:
         for name in request.COOKIES:
             cookie_dict[name] = request.COOKIES[name]
         json_cookie = json.dumps(cookie_dict, default=self.json_default, indent='\t')
+        
         print('Cookie: ', json_cookie)
 
         print('Time: ', datetime.datetime.now())

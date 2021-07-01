@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +28,7 @@ CSRF_COOKIE_SECURE = True
 SECRET_KEY = 'django-insecure-8!(y^gim9$fvx_a%yh!-tabk_q%4a%sk68bwd1-ug0r)2ib-@-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -44,9 +45,17 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'sslserver',
+    'logging_middleware',
 
     'hello_world',
 ]
+
+"""
+DJANGO_LOGGING_MIDDLEWARE = {
+    'DEFAULT_FORMAT': False,
+    'MESSAGE_FORMAT': "<b><green>{time}</green> <cyan>{message}</cyan></b>"
+}
+"""
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -56,13 +65,15 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'request_logging.middleware.LoggingMiddleware',
-    'server.middleware.ResponseFormattingMiddleware',
+    #'logging_middleware.middlewares.DjangoLoggingMiddleware',
+    #'request_logging.middleware.LoggingMiddleware',
+    'server.middleware.LoggingMiddleware',
 ]
+
 
 LOGGING = {
     'version': 1,
-    'disable_existing_loggers': False,
+    'disable_existing_loggers': True,
     'formatters': {
         'format1': {
             'fortmat': '[%(asctime)s] %(levelname)s [%(name)s:%(lineno)s] %(message)s',
@@ -75,15 +86,21 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'filename': '/home/ubuntu/knocktalkHYWEP/smartkey/server/debug.log',
         },
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'format1'
+        },
     },
     'loggers': {
         'django.request': {
-            'handlers': ['file'],
+            'handlers': ['console', 'file'],
             'level': 'DEBUG',  # change debug level as appropiate
             'propagate': False,
         },
     },
 }
+
 
 ROOT_URLCONF = 'server.urls'
 

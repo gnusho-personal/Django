@@ -5,6 +5,8 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 import json, datetime, logging
 
+logger = logging.getLogger(__name__)
+
 class Hello_World(APIView):
     # Post
     def post(self, request):
@@ -17,7 +19,7 @@ class Hello_World(APIView):
     # Get
     def get(self, request, **kwargs):
         
-        logging.debug('test debug log')
+        logger.debug('test debug log')
 
         ret = 'Hello World Get'
         if kwargs.get('pk') is not None:
