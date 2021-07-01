@@ -22,8 +22,6 @@ class LoggingMiddleware:
         ]
 
     def __call__(self, request):
-        print(logger)
-        logger.info('request info')
         self.print_request_log(request)
 
         response = None
@@ -35,7 +33,6 @@ class LoggingMiddleware:
             response = self.process_response(request, response)
         
         self.print_response_log(response)
-        logger.info('request done')
         return response
 
     def json_default(self, value): 
