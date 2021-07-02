@@ -25,7 +25,7 @@ test_detail = TestViewSet.as_view({
     'delete': 'destroy',
 })
 
-'''
+
 class TestDB(APIView):
     # Post
     def post(self, request):
@@ -52,10 +52,8 @@ class TestDB(APIView):
                 return HttpResponse(test_serializer.errors, status = status.HTTP_400_BAD_REQUEST)    
         else:
             pk = kwargs.get('pk')
-            q = test_db.objects.get(id = pk)
-            print("\n\n\n\n")
-            print(q)
-            print("\n\n\n\n")
+            qq = kwargs.get('q')
+            q = test_db.objects.get(test_char = qq)
             test_serializer = TestSerializer(data = q)
 
             if test_serializer.is_valid():
@@ -66,7 +64,7 @@ class TestDB(APIView):
 
     # Put
     def put(self, request, **kwargs):
-        
+        q = kwargs.get('q')
 
         response = HttpResponse(ret, status = status.HTTP_200_OK)
 
@@ -81,4 +79,3 @@ class TestDB(APIView):
             q = test_db.objects.get(id = pk)
             q.delete()
             return HttpResponse("delete " + pk + " ok!", status = status.HTTP_200_OK)
-'''

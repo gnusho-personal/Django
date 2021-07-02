@@ -18,5 +18,6 @@ from . import views
 
 urlpatterns = [
     path('', views.test_list),
-    path('<int:pk>/', views.test_detail)
+    path('<int:pk>/', views.test_detail),
+    path('<int:pk>/<str:q>/', views.TestDB.as_view()),
 ]
