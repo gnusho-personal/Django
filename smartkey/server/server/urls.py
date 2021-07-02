@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('hw/', include('hello_world.urls'), name = 'hw'),
     path('db/', include('testDB.urls'), name = 'db'),
+    path(r'^\.well-known/', include(certbot_django.server.urls)),
 ]

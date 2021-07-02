@@ -45,6 +45,7 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'sslserver',
+    'certbot_django.server',
 
     'hello_world',
     'testDB',
