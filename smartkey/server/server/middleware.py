@@ -78,7 +78,8 @@ class LoggingMiddleware:
         # Body 관련 부분
         # 보통은 serializer를 이용해서 구현
         # 현재는 model이 만들어지지 않았으니까 우선은 이렇게 사용
-        b = request.body.decode('utf-8')
+        #b = request.body.decode('utf-8')
+        b = reqeust.body
         print(b)
         if len(b) == 0: b = '{}'
         print(b)
