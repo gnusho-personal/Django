@@ -79,7 +79,9 @@ class LoggingMiddleware:
         # 보통은 serializer를 이용해서 구현
         # 현재는 model이 만들어지지 않았으니까 우선은 이렇게 사용
         b = request.body.decode('utf-8')
+        print(b)
         if len(b) == 0: b = '{}'
+        print(b)
         json_body_tmp = json.loads(b)
         json_body = json.dumps(json_body_tmp, indent='\t')
 
