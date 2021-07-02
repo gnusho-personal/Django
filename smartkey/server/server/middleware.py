@@ -18,7 +18,7 @@ stream_handler.setFormatter(formatter)
 # backupcout 만큼 backupfile 생성 // debug.log에 .(숫자) 넣어서 파일 만들어줌 필요하면 자동으로 숫자를 뒤로 밀어줌
 
 #file_handler = RotatingFileHandler(path, maxBytes = 1024 * 4, backupCount = 5)
-file_handler = TimedRotatingFileHandler(path, when = 'M', interval = 5, backupCount = 7)
+file_handler = TimedRotatingFileHandler(path, when = 'midnight', interval = 1, backupCount = 7)
 file_handler.setLevel(logging.INFO)
 file_handler.setFormatter(formatter)
 
@@ -78,9 +78,10 @@ class LoggingMiddleware:
         # Body 관련 부분
         # 보통은 serializer를 이용해서 구현
         # 현재는 model이 만들어지지 않았으니까 우선은 이렇게 사용
-        b = request.body.decode('utf-8')
-        if len(b) == 0: b = '{}'
-        json_body_tmp = json.loads(b)
+        #b = request.body.decode('utf-8')
+        body_tmp = request.body
+        if len(body_tmp) == 0: body_tmp = '{}'
+        json_body_tmp = json.loads(request.body)
         json_body = json.dumps(json_body_tmp, indent='\t')
 
         # Cookie 관련 부분

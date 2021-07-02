@@ -45,17 +45,10 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'sslserver',
-    'logging_middleware',
 
     'hello_world',
+    'testDB',
 ]
-
-"""
-DJANGO_LOGGING_MIDDLEWARE = {
-    'DEFAULT_FORMAT': False,
-    'MESSAGE_FORMAT': "<b><green>{time}</green> <cyan>{message}</cyan></b>"
-}
-"""
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -71,12 +64,6 @@ MIDDLEWARE = [
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': True,
-    'formatters': {
-        'format1': {
-            'fortmat': '[%(asctime)s] %(levelname)s %(message)s',
-            'datefmt': '%d/%b/%Y %H:%M:%S',
-        },
-    },
     'loggers': {
         'django.request': {
             'handlers': [],
@@ -118,6 +105,9 @@ DATABASES = {
         'PASSWORD': 'knocktalkHYWEP',
         'HOST': 'hywep-rds.c8jl7lyhcvv7.us-east-2.rds.amazonaws.com',
         'PORT': '3306',
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        },
     }
 }
 
