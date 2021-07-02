@@ -54,7 +54,7 @@ class TestDB(APIView):
         else:
             pk = kwargs.get('pk')
             qq = kwargs.get('q')
-            q = test_db.objects.filter(Q(test_db_test_char = qq))
+            q = test_db.objects.filter(Q(test_char = qq))
             test_serializer = TestSerializer(data = q)
 
             if test_serializer.is_valid():
