@@ -81,7 +81,7 @@ class LoggingMiddleware:
         #b = request.body.decode('utf-8')
         body_tmp = request.body
         if len(body_tmp) == 0: body_tmp = '{}'
-        json_body_tmp = json.loads(request.body)
+        json_body_tmp = json.loads(body_tmp)
         json_body = json.dumps(json_body_tmp, indent='\t')
 
         # Cookie 관련 부분
