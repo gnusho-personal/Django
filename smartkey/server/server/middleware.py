@@ -43,7 +43,8 @@ class LoggingMiddleware:
         response = None
         
         # print(request.headers['host'])
-        if request.headers['host'] == '18.218.37.167': return
+        if request.headers['host'] == '18.218.37.167': 
+            return '{}'
 
         if not response:
             response = self.get_response(request)
