@@ -129,7 +129,7 @@ class LoggingMiddleware:
         host_domain = True
         if request.headers['host'] == '18.218.37.167': host_domain = False
 
-        if request.method in self.METHOD and any(valid_urls) and host_domain:
+        if (request.method in self.METHOD) and any(valid_urls) and host_domain:
             response_format = {
                 'success': is_success(response.status_code),
                 'result': {},
