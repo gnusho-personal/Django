@@ -2,6 +2,7 @@ from rest_framework.status import is_client_error, is_success
 from rest_framework.response import Response
 import json, re, datetime, logging
 from logging.handlers import RotatingFileHandler, TimedRotatingFileHandler
+from django.http import HttpResponse
 
 path = '/home/ubuntu/knocktalkHYWEP/smartkey/server/debug.log'
 
@@ -127,12 +128,11 @@ class LoggingMiddleware:
         valid_urls = (url.match(path) for url in self.API_URLS)
         # print(request.headers['host'])
         host_domain = True
-        print(request.headers['host'])
-        print(response)
-        if request.headers['host'] == '18.218.37.167': 
-            host_domain = False
 
-        if (request.method in self.METHOD) and any(valid_urls) and host_domain:
+        if request.headers['host'] == '18.218.37.167': 
+            return HttpResponse('you cannot access this api by ip address', status.HTTP_400_BAD_REQUEST)
+
+        if (request.method in self.METHOD) and any(valid_urls):
             response_format = {
                 'success': is_success(response.status_code),
                 'result': {},
