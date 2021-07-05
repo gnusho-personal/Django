@@ -41,11 +41,7 @@ class LoggingMiddleware:
         self.print_request_log(request)
 
         response = None
-        
-        # print(request.headers['host'])
-        if request.headers['host'] == '18.218.37.167': 
-            return '{}'
-
+            
         if not response:
             response = self.get_response(request)
         
@@ -129,8 +125,11 @@ class LoggingMiddleware:
         """
         path = request.path_info.lstrip('/')
         valid_urls = (url.match(path) for url in self.API_URLS)
+        # print(request.headers['host'])
+        host_domain = True
+        if request.headers['host'] == '18.218.37.167': host_domain = False
 
-        if request.method in self.METHOD and any(valid_urls):
+        if request.method in self.METHOD and any(valid_urls) and host_domain:
             response_format = {
                 'success': is_success(response.status_code),
                 'result': {},
