@@ -130,7 +130,7 @@ class LoggingMiddleware:
         host_domain = True
 
         if request.headers['host'] == '18.218.37.167': 
-            return HttpResponse('you cannot access this api by ip address', status = status.HTTP_400_BAD_REQUEST)
+            return HttpResponse('you cannot access this api by ip address', status = is_client_error)
 
         if (request.method in self.METHOD) and any(valid_urls):
             response_format = {
