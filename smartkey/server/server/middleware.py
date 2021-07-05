@@ -128,11 +128,11 @@ class LoggingMiddleware:
         # print(request.headers['host'])
         host_domain = True
         print(request.headers['host'])
+        print(response)
         if request.headers['host'] == '18.218.37.167': 
             host_domain = False
 
         if (request.method in self.METHOD) and any(valid_urls) and host_domain:
-            print(host_domain)
             response_format = {
                 'success': is_success(response.status_code),
                 'result': {},
