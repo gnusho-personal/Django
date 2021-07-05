@@ -1,3 +1,4 @@
+from rest_framework import status
 from rest_framework.status import is_client_error, is_success
 from rest_framework.response import Response
 import json, re, datetime, logging
@@ -130,7 +131,7 @@ class LoggingMiddleware:
         host_domain = True
 
         if request.headers['host'] == '18.218.37.167': 
-            return HttpResponse('you cannot access this api by ip address', status = is_client_error)
+            return HttpResponse('you cannot access this api by ip address', status = status.HTTP_400_BAD_REQUEST)
 
         if (request.method in self.METHOD) and any(valid_urls):
             response_format = {
