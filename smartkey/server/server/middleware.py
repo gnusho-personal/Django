@@ -42,6 +42,8 @@ class LoggingMiddleware:
 
         response = None
         
+        print(reqeust.headers['host'])
+
         if not response:
             response = self.get_response(request)
         
