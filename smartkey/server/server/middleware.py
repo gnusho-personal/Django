@@ -132,6 +132,7 @@ class LoggingMiddleware:
             host_domain = False
 
         if (request.method in self.METHOD) and any(valid_urls) and host_domain:
+            print(host_domain)
             response_format = {
                 'success': is_success(response.status_code),
                 'result': {},
