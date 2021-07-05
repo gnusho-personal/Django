@@ -127,8 +127,8 @@ class LoggingMiddleware:
         valid_urls = (url.match(path) for url in self.API_URLS)
         # print(request.headers['host'])
         host_domain = True
-        if request.headers['Host'] == '18.218.37.167': 
-            print(request.headers['Host'])
+        print(request.headers['host'])
+        if request.headers['host'] == '18.218.37.167': 
             host_domain = False
 
         if (request.method in self.METHOD) and any(valid_urls) and host_domain:
