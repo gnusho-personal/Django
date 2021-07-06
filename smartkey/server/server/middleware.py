@@ -130,6 +130,10 @@ class LoggingMiddleware:
 
         if '18.218.37.167' in request.headers['host']: 
             return HttpResponse('Bad Access', status = status.HTTP_403_FORBIDDEN)
+        
+        # 향후 추가
+        #if request.headers['content-type'] is not 'application/json':
+        #    return HttpResponse('Bad Data Type', status = status.HTTP_403_FORBIDDEN)
 
         if (request.method in self.METHOD) and any(valid_urls):
             response_format = {
