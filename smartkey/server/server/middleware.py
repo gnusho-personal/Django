@@ -1,7 +1,9 @@
+from rest_framework import status
 from rest_framework.status import is_client_error, is_success
 from rest_framework.response import Response
 import json, re, datetime, logging
 from logging.handlers import RotatingFileHandler, TimedRotatingFileHandler
+from django.http import HttpResponse
 
 path = '/home/ubuntu/knocktalkHYWEP/smartkey/server/debug.log'
 
@@ -41,7 +43,7 @@ class LoggingMiddleware:
         self.print_request_log(request)
 
         response = None
-        
+            
         if not response:
             response = self.get_response(request)
         
@@ -126,7 +128,10 @@ class LoggingMiddleware:
         path = request.path_info.lstrip('/')
         valid_urls = (url.match(path) for url in self.API_URLS)
 
-        if request.method in self.METHOD and any(valid_urls):
+        if '18.218.37.167' in request.headers['host']: 
+            return HttpResponse('Bad Access', status = status.HTTP_403_FORBIDDEN)
+
+        if (request.method in self.METHOD) and any(valid_urls):
             response_format = {
                 'success': is_success(response.status_code),
                 'result': {},
