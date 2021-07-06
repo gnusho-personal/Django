@@ -128,7 +128,7 @@ class LoggingMiddleware:
         path = request.path_info.lstrip('/')
         valid_urls = (url.match(path) for url in self.API_URLS)
 
-        if request.headers['host'] == '18.218.37.167': 
+        if '18.218.37.167' in request.headers['host']: 
             return HttpResponse('Bad Access', status = status.HTTP_403_FORBIDDEN)
 
         if (request.method in self.METHOD) and any(valid_urls):
