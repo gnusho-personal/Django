@@ -87,7 +87,6 @@ class Car_Infos(models.Model):
     car_type: 자동차 기종
     car_year: 자동차 연식
     '''
-
     product = models.ForeignKey(Products, null = False, on_delete = models.CASCADE)
 
     number = models.CharField(max_length = 20, primary_key = True)
@@ -108,7 +107,6 @@ class Update_Logs(models.Model):
 
     product -> foreign key
     '''
-
     product = models.ForeignKey(Products, null = True, on_delete = models.SET_NULL)
 
     date = models.DateTimeField(auto_now_add = True, primary_key = True)
@@ -116,8 +114,8 @@ class Update_Logs(models.Model):
     # action은 choice를 사용해서 구현할 예정
     #action = 
 
-    before = models.JSONField(default = '{}')
-    after = models.JSONField(default = '{}')
+    before = models.JSONField()
+    after = models.JSONField()
 
 class Users_Products(models.Model):
     '''
@@ -125,8 +123,20 @@ class Users_Products(models.Model):
     어떤 이용자가 어떤 상품을 사용하는지 M:N관계의 table
 
     userID: 이용자의 ID (app에서)
-    product -> foreign key
+    product -> foreign keyx
     '''
-
     userID = models.CharField(max_length = 30)
     product = models.ForeignKey(Products, null = True, on_delete = models.SET_NULL)
+
+class Feedback(models.Model):
+    '''
+    [피드백 model]
+    이용자로부터 받은 피드백을 저장하기 위한 model
+
+    contents: 피드백 내용
+    results: 피드백에 대응한 내용
+
+
+    '''
+    contents = models.TextField()
+    results = models.TextField()
