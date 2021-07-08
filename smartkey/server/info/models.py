@@ -136,7 +136,9 @@ class Feedback(models.Model):
     contents: 피드백 내용
     results: 피드백에 대응한 내용
 
-
+    user_product: 무슨 상품에 대한 어떤 이용자의 피드백인지에 대한 내용
     '''
     contents = models.TextField()
     results = models.TextField()
+
+    user_product = models.ForeignKey(Users_Products, null = True, on_delete = models.SET_NULL)
