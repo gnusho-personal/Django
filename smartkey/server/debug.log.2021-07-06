@@ -1,0 +1,2066 @@
+Time: 2021-07-06 00:50:29,153; Level: INFO
+ Request Start
+URL: GET/db/7/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Referer": "\"dsafsdff\"",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "9e2aa00c-ad7e-4c95-94cc-da0254674fba",
+	"Host": "support.keyfreecar.co.kr:443",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 00:50:29,207; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":7,"created_at":"2021-07-05T00:52:48.723632Z","updated_at":"2021-07-05T00:52:48.724154Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372}'
+
+Time: 2021-07-06 00:50:35,535; Level: INFO
+ Request Start
+URL: GET/db/3/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Referer": "\"dsafsdff\"",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "a0dadc5a-ef9a-47a0-a9b2-72d4ef2f1fe5",
+	"Host": "support.keyfreecar.co.kr:443",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 00:50:35,582; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":3,"created_at":"2021-07-02T07:37:15.730226Z","updated_at":"2021-07-02T07:37:15.730273Z","test_char":"test_object_3","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372}'
+
+Time: 2021-07-06 00:50:52,592; Level: INFO
+ Request Start
+URL: GET/db/3/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "6cb7c6bc-da60-4567-a838-66dd227ba0c3",
+	"Host": "18.218.37.167:443",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 00:50:52,626; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 00:50:52,626; Level: WARNING
+ Forbidden: /db/3/
+Time: 2021-07-06 01:25:34,371; Level: INFO
+ Request Start
+URL: GET/db/3/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "279efd03-dff9-4634-ae30-e39b56a1a056",
+	"Host": "18.218.37.167:443",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 01:25:34,419; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 01:25:34,420; Level: WARNING
+ Forbidden: /db/3/
+Time: 2021-07-06 01:25:49,999; Level: INFO
+ Request Start
+URL: GET/db/3/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"Connection": "keep-alive",
+	"Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+	"Sec-Ch-Ua-Mobile": "?0",
+	"Upgrade-Insecure-Requests": "1",
+	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+	"Sec-Fetch-Site": "none",
+	"Sec-Fetch-Mode": "navigate",
+	"Sec-Fetch-User": "?1",
+	"Sec-Fetch-Dest": "document",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+	"Cookie": "csrftoken=SMRbcxtB1jZosGUYXZ9imKpbWtmbqfoOIBKWe31kB39t1LwyFfskYz6XQDgyH8XO"
+}
+Body:{}
+Cookie:{
+	"csrftoken": "SMRbcxtB1jZosGUYXZ9imKpbWtmbqfoOIBKWe31kB39t1LwyFfskYz6XQDgyH8XO"
+}
+Request Done
+
+Time: 2021-07-06 01:25:50,104; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 01:25:50,105; Level: WARNING
+ Forbidden: /db/3/
+Time: 2021-07-06 03:03:15,099; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:8000",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 03:03:15,117; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 03:03:15,117; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 03:03:18,835; Level: INFO
+ Request Start
+URL: GET/actuator/health
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 03:03:18,839; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 03:03:18,840; Level: WARNING
+ Forbidden: /actuator/health
+Time: 2021-07-06 03:31:12,063; Level: INFO
+ Request Start
+URL: POST/db/
+Header:{
+	"Content-Length": "135",
+	"Content-Type": "application/json",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "dcfed045-c459-4793-9d9c-d5122f188b71",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{
+	"test_char": "test_object_6_ssh_check",
+	"test_email": "joon2387@hanmail.net",
+	"test_integer": 2016024893,
+	"test_float": 450
+}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 03:31:12,141; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, POST, HEAD, OPTIONS"
+}
+Code:201
+Body:b'{"id":8,"created_at":"2021-07-06T03:31:12.129495Z","updated_at":"2021-07-06T03:31:12.129551Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":450}'
+
+Time: 2021-07-06 03:31:13,391; Level: INFO
+ Request Start
+URL: POST/db/
+Header:{
+	"Content-Length": "135",
+	"Content-Type": "application/json",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "cc132070-d08f-416d-987b-bb721f4db5e3",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{
+	"test_char": "test_object_6_ssh_check",
+	"test_email": "joon2387@hanmail.net",
+	"test_integer": 2016024893,
+	"test_float": 450
+}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 03:31:13,420; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, POST, HEAD, OPTIONS"
+}
+Code:201
+Body:b'{"id":9,"created_at":"2021-07-06T03:31:13.414380Z","updated_at":"2021-07-06T03:31:13.414425Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":450}'
+
+Time: 2021-07-06 03:31:14,480; Level: INFO
+ Request Start
+URL: POST/db/
+Header:{
+	"Content-Length": "135",
+	"Content-Type": "application/json",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "0ba0491d-616f-40ec-9cbf-a5457e0f7a37",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{
+	"test_char": "test_object_6_ssh_check",
+	"test_email": "joon2387@hanmail.net",
+	"test_integer": 2016024893,
+	"test_float": 450
+}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 03:31:14,503; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, POST, HEAD, OPTIONS"
+}
+Code:201
+Body:b'{"id":10,"created_at":"2021-07-06T03:31:14.497189Z","updated_at":"2021-07-06T03:31:14.497236Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":450}'
+
+Time: 2021-07-06 03:31:15,394; Level: INFO
+ Request Start
+URL: POST/db/
+Header:{
+	"Content-Length": "135",
+	"Content-Type": "application/json",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "ce882a67-2e18-4a1e-b608-679229891d7c",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{
+	"test_char": "test_object_6_ssh_check",
+	"test_email": "joon2387@hanmail.net",
+	"test_integer": 2016024893,
+	"test_float": 450
+}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 03:31:15,417; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, POST, HEAD, OPTIONS"
+}
+Code:201
+Body:b'{"id":11,"created_at":"2021-07-06T03:31:15.410975Z","updated_at":"2021-07-06T03:31:15.411024Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":450}'
+
+Time: 2021-07-06 03:38:39,593; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 03:38:39,598; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 03:38:39,598; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 03:55:18,550; Level: INFO
+ Request Start
+URL: POST/db/
+Header:{
+	"Content-Length": "135",
+	"Content-Type": "application/json",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "2df64bc0-2590-4655-8a5b-164f4bc47a92",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{
+	"test_char": "test_object_6_ssh_check",
+	"test_email": "joon2387@hanmail.net",
+	"test_integer": 2016024893,
+	"test_float": 450
+}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 03:55:18,612; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, POST, HEAD, OPTIONS"
+}
+Code:201
+Body:b'{"id":12,"created_at":"2021-07-06T03:55:18.606512Z","updated_at":"2021-07-06T03:55:18.606565Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":450}'
+
+Time: 2021-07-06 03:55:28,546; Level: INFO
+ Request Start
+URL: GET/db/1/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Referer": "\"dsafsdff\"",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "27a9af65-ac3a-4a8e-858c-237da23dc577",
+	"Host": "support.keyfreecar.co.kr:443",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 03:55:28,577; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":1,"created_at":"2021-07-02T07:37:08.684265Z","updated_at":"2021-07-02T07:37:08.684321Z","test_char":"test_object_1","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372}'
+
+Time: 2021-07-06 03:57:44,945; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:8000"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 03:57:44,949; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 03:57:44,950; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 03:57:45,039; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:8000",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 03:57:45,043; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 03:57:45,043; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 04:31:30,604; Level: INFO
+ Request Start
+URL: GET/db/1/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Referer": "\"dsafsdff\"",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "9d278bc1-33cd-45e7-a2e2-908e333ee194",
+	"Host": "support.keyfreecar.co.kr:443",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 04:31:30,644; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":1,"created_at":"2021-07-02T07:37:08.684265Z","updated_at":"2021-07-02T07:37:08.684321Z","test_char":"test_object_1","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372}'
+
+Time: 2021-07-06 04:31:37,451; Level: INFO
+ Request Start
+URL: GET/db/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Referer": "\"dsafsdff\"",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "2137d066-5c13-4651-bcba-18a30cb3805c",
+	"Host": "support.keyfreecar.co.kr:443",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 04:31:37,495; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, POST, HEAD, OPTIONS"
+}
+Code:200
+Body:b'[{"id":1,"created_at":"2021-07-02T07:37:08.684265Z","updated_at":"2021-07-02T07:37:08.684321Z","test_char":"test_object_1","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372},{"id":2,"created_at":"2021-07-02T07:37:12.953311Z","updated_at":"2021-07-02T07:37:12.953358Z","test_char":"test_object_2","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372},{"id":3,"created_at":"2021-07-02T07:37:15.730226Z","updated_at":"2021-07-02T07:37:15.730273Z","test_char":"test_object_3","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372},{"id":4,"created_at":"2021-07-02T07:37:18.551920Z","updated_at":"2021-07-02T07:37:18.551968Z","test_char":"test_object_4","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372},{"id":5,"created_at":"2021-07-02T07:37:21.736841Z","updated_at":"2021-07-02T07:37:21.736891Z","test_char":"test_object_5","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372},{"id":6,"created_at":"2021-07-05T00:51:26.301559Z","updated_at":"2021-07-05T00:51:26.301610Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372},{"id":7,"created_at":"2021-07-05T00:52:48.723632Z","updated_at":"2021-07-05T00:52:48.724154Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372},{"id":8,"created_at":"2021-07-06T03:31:12.129495Z","updated_at":"2021-07-06T03:31:12.129551Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":450},{"id":9,"created_at":"2021-07-06T03:31:13.414380Z","updated_at":"2021-07-06T03:31:13.414425Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":450},{"id":10,"created_at":"2021-07-06T03:31:14.497189Z","updated_at":"2021-07-06T03:31:14.497236Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":450},{"id":11,"created_at":"2021-07-06T03:31:15.410975Z","updated_at":"2021-07-06T03:31:15.411024Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":450},{"id":12,"created_at":"2021-07-06T03:55:18.606512Z","updated_at":"2021-07-06T03:55:18.606565Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":450}]'
+
+Time: 2021-07-06 04:31:48,484; Level: INFO
+ Request Start
+URL: PUT/db/12/
+Header:{
+	"Content-Length": "138",
+	"Content-Type": "application/json",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "716fa90e-5426-4caa-bc00-11b9b6dfda74",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{
+	"test_char": "put_test_db 890 to 100000",
+	"test_email": "joon2387@naver.com",
+	"test_integer": 2016024893,
+	"test_float": 100000
+}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 04:31:48,538; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":12,"created_at":"2021-07-06T03:55:18.606512Z","updated_at":"2021-07-06T04:31:48.531434Z","test_char":"put_test_db 890 to 100000","test_email":"joon2387@naver.com","test_integer":2016024893,"test_float":100000}'
+
+Time: 2021-07-06 04:32:00,148; Level: INFO
+ Request Start
+URL: DELETE/db/9/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "18135f47-eabc-4596-a503-70480b904854",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 04:32:00,279; Level: INFO
+ Response Done
+Header:{
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:204
+Body:b''
+
+Time: 2021-07-06 04:32:58,999; Level: INFO
+ Request Start
+URL: DELETE/db/9/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "efd7a166-f724-4d55-a3b3-838b23a7e66d",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 04:32:59,025; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:404
+Body:b'{"detail":"Not found."}'
+
+Time: 2021-07-06 04:32:59,026; Level: WARNING
+ Not Found: /db/9/
+Time: 2021-07-06 04:33:52,271; Level: INFO
+ Request Start
+URL: DELETE/db/9/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "2eec0dbe-6587-46e4-942d-6b3aec7cba98",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 04:33:52,307; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:404
+Body:b'{"detail":"Not found."}'
+
+Time: 2021-07-06 04:33:52,308; Level: WARNING
+ Not Found: /db/9/
+Time: 2021-07-06 04:34:00,696; Level: INFO
+ Request Start
+URL: GET/db/3/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "6d59f5db-ec4b-48a8-8343-d61e22b083f9",
+	"Host": "18.218.37.167:443",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 04:34:00,733; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 04:34:00,733; Level: WARNING
+ Forbidden: /db/3/
+Time: 2021-07-06 05:16:37,772; Level: INFO
+ Request Start
+URL: GET/hw/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "support.keyfreecar.co.kr:8000",
+	"Connection": "keep-alive",
+	"Cache-Control": "max-age=0",
+	"Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+	"Sec-Ch-Ua-Mobile": "?0",
+	"Upgrade-Insecure-Requests": "1",
+	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+	"Sec-Fetch-Site": "none",
+	"Sec-Fetch-Mode": "navigate",
+	"Sec-Fetch-User": "?1",
+	"Sec-Fetch-Dest": "document",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+	"Cookie": "csrftoken=MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf; sessionid=cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Body:{}
+Cookie:{
+	"csrftoken": "MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf",
+	"sessionid": "cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Request Done
+
+Time: 2021-07-06 05:16:37,824; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8",
+	"Vary": "Accept",
+	"Allow": "GET, POST, PUT, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'Hello World Get -1'
+
+Time: 2021-07-06 05:16:44,401; Level: INFO
+ Request Start
+URL: GET/db/3/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "b80613c2-beff-4b78-a862-2d03a666e2ec",
+	"Host": "18.218.37.167:443",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 05:16:44,461; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 05:16:44,461; Level: WARNING
+ Forbidden: /db/3/
+Time: 2021-07-06 05:26:20,841; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 05:26:20,850; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 05:26:20,850; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 05:38:14,227; Level: INFO
+ Request Start
+URL: GET/admin/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "support.keyfreecar.co.kr",
+	"Connection": "keep-alive",
+	"Upgrade-Insecure-Requests": "1",
+	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+	"Sec-Fetch-Site": "none",
+	"Sec-Fetch-Mode": "navigate",
+	"Sec-Fetch-User": "?1",
+	"Sec-Fetch-Dest": "document",
+	"Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+	"Sec-Ch-Ua-Mobile": "?0",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+	"Cookie": "csrftoken=MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf; sessionid=cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Body:{}
+Cookie:{
+	"csrftoken": "MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf",
+	"sessionid": "cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Request Done
+
+Time: 2021-07-06 05:38:14,314; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8",
+	"Expires": "Tue, 06 Jul 2021 05:38:14 GMT",
+	"Cache-Control": "max-age=0, no-cache, no-store, must-revalidate, private"
+}
+Code:200
+Body:b'<!DOCTYPE html>\n\n<html lang="en-us" dir="ltr">\n<head>\n<title>Site administration | Django site admin</title>\n<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css">\n\n  <link rel="stylesheet" type="text/css" href="/static/admin/css/nav_sidebar.css">\n  <script src="/static/admin/js/nav_sidebar.js" defer></script>\n\n<link rel="stylesheet" type="text/css" href="/static/admin/css/dashboard.css">\n\n\n\n    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">\n    <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css">\n    \n\n<meta name="robots" content="NONE,NOARCHIVE">\n</head>\n\n\n<body class=" dashboard"\n  data-admin-utc-offset="0">\n\n<!-- Container -->\n<div id="container">\n\n    \n    <!-- Header -->\n    <div id="header">\n        <div id="branding">\n        \n<h1 id="site-name"><a href="/admin/">Django administration</a></h1>\n\n        </div>\n        \n        \n        <div id="user-tools">\n            \n                Welcome,\n                <strong>root</strong>.\n            \n            \n                \n                    <a href="/">View site</a> /\n                \n                \n                    \n                    \n                \n                \n                <a href="/admin/password_change/">Change password</a> /\n                \n                <a href="/admin/logout/">Log out</a>\n            \n        </div>\n        \n        \n        \n    </div>\n    <!-- END Header -->\n    \n    \n\n    <div class="main shifted" id="main">\n      \n        \n      \n      <div class="content">\n        \n          \n        \n        <!-- Content -->\n        <div id="content" class="colMS">\n          \n          <h1>Site administration</h1>\n          \n          \n<div id="content-main">\n  \n\n\n  \n    <div class="app-auth module">\n      <table>\n        <caption>\n          <a href="/admin/auth/" class="section" title="Models in the Authentication and Authorization application">Authentication and Authorization</a>\n        </caption>\n        \n          <tr class="model-group">\n            \n              <th scope="row"><a href="/admin/auth/group/">Groups</a></th>\n            \n\n            \n              <td><a href="/admin/auth/group/add/" class="addlink">Add</a></td>\n            \n\n            \n              \n                <td><a href="/admin/auth/group/" class="changelink">Change</a></td>\n              \n            \n          </tr>\n        \n          <tr class="model-user">\n            \n              <th scope="row"><a href="/admin/auth/user/">Users</a></th>\n            \n\n            \n              <td><a href="/admin/auth/user/add/" class="addlink">Add</a></td>\n            \n\n            \n              \n                <td><a href="/admin/auth/user/" class="changelink">Change</a></td>\n              \n            \n          </tr>\n        \n      </table>\n    </div>\n  \n    <div class="app-testDB module">\n      <table>\n        <caption>\n          <a href="/admin/testDB/" class="section" title="Models in the Testdb application">Testdb</a>\n        </caption>\n        \n          <tr class="model-test_db">\n            \n              <th scope="row"><a href="/admin/testDB/test_db/">Test_dbs</a></th>\n            \n\n            \n              <td><a href="/admin/testDB/test_db/add/" class="addlink">Add</a></td>\n            \n\n            \n              \n                <td><a href="/admin/testDB/test_db/" class="changelink">Change</a></td>\n              \n            \n          </tr>\n        \n      </table>\n    </div>\n  \n\n\n</div>\n\n          \n<div id="content-related">\n    <div class="module" id="recent-actions-module">\n        <h2>Recent actions</h2>\n        <h3>My actions</h3>\n            \n            \n            \n            <p>None available</p>\n            \n    </div>\n</div>\n\n          <br class="clear">\n        </div>\n        <!-- END Content -->\n        <div id="footer"></div>\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n'
+
+Time: 2021-07-06 05:38:17,419; Level: INFO
+ Request Start
+URL: GET/admin/auth/user/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "support.keyfreecar.co.kr",
+	"Connection": "keep-alive",
+	"Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+	"Sec-Ch-Ua-Mobile": "?0",
+	"Upgrade-Insecure-Requests": "1",
+	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+	"Sec-Fetch-Site": "same-origin",
+	"Sec-Fetch-Mode": "navigate",
+	"Sec-Fetch-User": "?1",
+	"Sec-Fetch-Dest": "document",
+	"Referer": "https://support.keyfreecar.co.kr/admin/",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+	"Cookie": "csrftoken=MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf; sessionid=cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Body:{}
+Cookie:{
+	"csrftoken": "MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf",
+	"sessionid": "cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Request Done
+
+Time: 2021-07-06 05:38:17,493; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8",
+	"Expires": "Tue, 06 Jul 2021 05:38:17 GMT",
+	"Cache-Control": "max-age=0, no-cache, no-store, must-revalidate, private",
+	"Vary": "Cookie"
+}
+Code:200
+Body:b'<!DOCTYPE html>\n\n<html lang="en-us" dir="ltr">\n<head>\n<title>Select user to change | Django site admin</title>\n<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css">\n\n  <link rel="stylesheet" type="text/css" href="/static/admin/css/nav_sidebar.css">\n  <script src="/static/admin/js/nav_sidebar.js" defer></script>\n\n\n  \n  <link rel="stylesheet" type="text/css" href="/static/admin/css/changelists.css">\n  \n  \n    <script src="/admin/jsi18n/"></script>\n  \n  \n  \n\n\n\n\n<script src="/static/admin/js/vendor/jquery/jquery.js"></script>\n<script src="/static/admin/js/jquery.init.js"></script>\n<script src="/static/admin/js/core.js"></script>\n<script src="/static/admin/js/admin/RelatedObjectLookups.js"></script>\n<script src="/static/admin/js/actions.js"></script>\n<script src="/static/admin/js/urlify.js"></script>\n<script src="/static/admin/js/prepopulate.js"></script>\n<script src="/static/admin/js/vendor/xregexp/xregexp.js"></script>\n\n\n    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">\n    <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css">\n    \n\n<meta name="robots" content="NONE,NOARCHIVE">\n</head>\n\n\n<body class=" app-auth model-user change-list"\n  data-admin-utc-offset="0">\n\n<!-- Container -->\n<div id="container">\n\n    \n    <!-- Header -->\n    <div id="header">\n        <div id="branding">\n        \n<h1 id="site-name"><a href="/admin/">Django administration</a></h1>\n\n        </div>\n        \n        \n        <div id="user-tools">\n            \n                Welcome,\n                <strong>root</strong>.\n            \n            \n                \n                    <a href="/">View site</a> /\n                \n                \n                    \n                    \n                \n                \n                <a href="/admin/password_change/">Change password</a> /\n                \n                <a href="/admin/logout/">Log out</a>\n            \n        </div>\n        \n        \n        \n    </div>\n    <!-- END Header -->\n    \n<div class="breadcrumbs">\n<a href="/admin/">Home</a>\n&rsaquo; <a href="/admin/auth/">Authentication and Authorization</a>\n&rsaquo; Users\n</div>\n\n    \n\n    <div class="main shifted" id="main">\n      \n        \n          \n<button class="sticky toggle-nav-sidebar" id="toggle-nav-sidebar" aria-label="Toggle navigation"></button>\n<nav class="sticky" id="nav-sidebar">\n  \n\n\n  \n    <div class="app-auth module current-app">\n      <table>\n        <caption>\n          <a href="/admin/auth/" class="section" title="Models in the Authentication and Authorization application">Authentication and Authorization</a>\n        </caption>\n        \n          <tr class="model-group">\n            \n              <th scope="row"><a href="/admin/auth/group/">Groups</a></th>\n            \n\n            \n              <td><a href="/admin/auth/group/add/" class="addlink">Add</a></td>\n            \n\n            \n          </tr>\n        \n          <tr class="model-user current-model">\n            \n              <th scope="row"><a href="/admin/auth/user/" aria-current="page">Users</a></th>\n            \n\n            \n              <td><a href="/admin/auth/user/add/" class="addlink">Add</a></td>\n            \n\n            \n          </tr>\n        \n      </table>\n    </div>\n  \n    <div class="app-testDB module">\n      <table>\n        <caption>\n          <a href="/admin/testDB/" class="section" title="Models in the Testdb application">Testdb</a>\n        </caption>\n        \n          <tr class="model-test_db">\n            \n              <th scope="row"><a href="/admin/testDB/test_db/">Test_dbs</a></th>\n            \n\n            \n              <td><a href="/admin/testDB/test_db/add/" class="addlink">Add</a></td>\n            \n\n            \n          </tr>\n        \n      </table>\n    </div>\n  \n\n\n</nav>\n\n        \n      \n      <div class="content">\n        \n          \n        \n        <!-- Content -->\n        <div id="content" class="">\n          \n          <h1>Select user to change</h1>\n          \n          \n  <div id="content-main">\n    \n        <ul class="object-tools">\n          \n            \n\n\n  \n  <li>\n    \n    <a href="/admin/auth/user/add/" class="addlink">\n      Add user\n    </a>\n  </li>\n  \n\n\n          \n        </ul>\n    \n    \n    <div class="module filtered" id="changelist">\n      <div class="changelist-form-container">\n        \n\n<div id="toolbar"><form id="changelist-search" method="get">\n<div><!-- DIV needed for valid HTML -->\n<label for="searchbar"><img src="/static/admin/img/search.svg" alt="Search"></label>\n<input type="text" size="40" name="q" value="" id="searchbar" autofocus>\n<input type="submit" value="Search">\n\n\n</div>\n</form></div>\n\n\n        \n\n        <form id="changelist-form" method="post" novalidate><input type="hidden" name="csrfmiddlewaretoken" value="e8omCIqUp7A3Vg5RQZctFTYfR3rIblFKFV57IUd8Y8STkrtcyo8aYHplIKCDt7S4">\n        \n\n        \n          \n<div class="actions">\n  \n    \n    <label>Action: <select name="action" required>\n  <option value="" selected>---------</option>\n\n  <option value="delete_selected">Delete selected users</option>\n\n</select></label><input type="hidden" name="select_across" value="0" class="select-across">\n    \n    \n    <button type="submit" class="button" title="Run the selected action" name="index" value="0">Go</button>\n    \n    \n    \n        <span class="action-counter" data-actions-icnt="1">0 of 1 selected</span>\n        \n    \n    \n  \n</div>\n\n          \n\n\n<div class="results">\n<table id="result_list">\n<thead>\n<tr>\n\n<th scope="col" class="action-checkbox-column">\n   \n   <div class="text"><span><input type="checkbox" id="action-toggle"></span></div>\n   <div class="clear"></div>\n</th>\n<th scope="col" class="sortable column-username sorted ascending">\n   \n     \n       <div class="sortoptions">\n         <a class="sortremove" href="?o=" title="Remove from sorting"></a>\n         \n         <a href="?o=-1" class="toggle ascending" title="Toggle sorting"></a>\n       </div>\n     \n   \n   <div class="text"><a href="?o=-1">Username</a></div>\n   <div class="clear"></div>\n</th>\n<th scope="col" class="sortable column-email">\n   \n     \n   \n   <div class="text"><a href="?o=2.1">Email address</a></div>\n   <div class="clear"></div>\n</th>\n<th scope="col" class="sortable column-first_name">\n   \n     \n   \n   <div class="text"><a href="?o=3.1">First name</a></div>\n   <div class="clear"></div>\n</th>\n<th scope="col" class="sortable column-last_name">\n   \n     \n   \n   <div class="text"><a href="?o=4.1">Last name</a></div>\n   <div class="clear"></div>\n</th>\n<th scope="col" class="sortable column-is_staff">\n   \n     \n   \n   <div class="text"><a href="?o=5.1">Staff status</a></div>\n   <div class="clear"></div>\n</th>\n</tr>\n</thead>\n<tbody>\n\n\n<tr><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="1" class="action-select"></td><th class="field-username"><a href="/admin/auth/user/1/change/">root</a></th><td class="field-email">osj2387@naver.com</td><td class="field-first_name"></td><td class="field-last_name"></td><td class="field-is_staff"><img src="/static/admin/img/icon-yes.svg" alt="True"></td></tr>\n\n</tbody>\n</table>\n</div>\n\n\n          \n        \n        \n\n<p class="paginator">\n\n1 user\n\n\n</p>\n\n        </form>\n      </div>\n      \n        \n          <div id="changelist-filter">\n            <h2>Filter</h2>\n            \n            \n<h3> By staff status </h3>\n<ul>\n\n    <li class="selected">\n    <a href="?" title="All">All</a></li>\n\n    <li>\n    <a href="?is_staff__exact=1" title="Yes">Yes</a></li>\n\n    <li>\n    <a href="?is_staff__exact=0" title="No">No</a></li>\n\n</ul>\n\n<h3> By superuser status </h3>\n<ul>\n\n    <li class="selected">\n    <a href="?" title="All">All</a></li>\n\n    <li>\n    <a href="?is_superuser__exact=1" title="Yes">Yes</a></li>\n\n    <li>\n    <a href="?is_superuser__exact=0" title="No">No</a></li>\n\n</ul>\n\n<h3> By active </h3>\n<ul>\n\n    <li class="selected">\n    <a href="?" title="All">All</a></li>\n\n    <li>\n    <a href="?is_active__exact=1" title="Yes">Yes</a></li>\n\n    <li>\n    <a href="?is_active__exact=0" title="No">No</a></li>\n\n</ul>\n\n          </div>\n        \n      \n    </div>\n  </div>\n\n          \n          <br class="clear">\n        </div>\n        <!-- END Content -->\n        <div id="footer"></div>\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n'
+
+Time: 2021-07-06 05:38:17,913; Level: INFO
+ Request Start
+URL: GET/admin/jsi18n/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "support.keyfreecar.co.kr",
+	"Connection": "keep-alive",
+	"Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+	"Sec-Ch-Ua-Mobile": "?0",
+	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+	"Accept": "*/*",
+	"Sec-Fetch-Site": "same-origin",
+	"Sec-Fetch-Mode": "no-cors",
+	"Sec-Fetch-Dest": "script",
+	"Referer": "https://support.keyfreecar.co.kr/admin/auth/user/",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+	"Cookie": "csrftoken=MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf; sessionid=cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Body:{}
+Cookie:{
+	"csrftoken": "MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf",
+	"sessionid": "cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Request Done
+
+Time: 2021-07-06 05:38:17,938; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/javascript; charset=\"utf-8\""
+}
+Code:200
+Body:b'\n\n\'use strict\';\n{\n  const globals = this;\n  const django = globals.django || (globals.django = {});\n\n  \n  django.pluralidx = function(count) { return (count == 1) ? 0 : 1; };\n  \n\n  /* gettext library */\n\n  django.catalog = django.catalog || {};\n  \n\n  if (!django.jsi18n_initialized) {\n    django.gettext = function(msgid) {\n      const value = django.catalog[msgid];\n      if (typeof value === \'undefined\') {\n        return msgid;\n      } else {\n        return (typeof value === \'string\') ? value : value[0];\n      }\n    };\n\n    django.ngettext = function(singular, plural, count) {\n      const value = django.catalog[singular];\n      if (typeof value === \'undefined\') {\n        return (count == 1) ? singular : plural;\n      } else {\n        return value.constructor === Array ? value[django.pluralidx(count)] : value;\n      }\n    };\n\n    django.gettext_noop = function(msgid) { return msgid; };\n\n    django.pgettext = function(context, msgid) {\n      let value = django.gettext(context + \'\\x04\' + msgid);\n      if (value.includes(\'\\x04\')) {\n        value = msgid;\n      }\n      return value;\n    };\n\n    django.npgettext = function(context, singular, plural, count) {\n      let value = django.ngettext(context + \'\\x04\' + singular, context + \'\\x04\' + plural, count);\n      if (value.includes(\'\\x04\')) {\n        value = django.ngettext(singular, plural, count);\n      }\n      return value;\n    };\n\n    django.interpolate = function(fmt, obj, named) {\n      if (named) {\n        return fmt.replace(/%\\(\\w+\\)s/g, function(match){return String(obj[match.slice(2,-2)])});\n      } else {\n        return fmt.replace(/%s/g, function(match){return String(obj.shift())});\n      }\n    };\n\n\n    /* formatting library */\n\n    django.formats = {\n    "DATETIME_FORMAT": "N j, Y, P",\n    "DATETIME_INPUT_FORMATS": [\n      "%Y-%m-%d %H:%M:%S",\n      "%Y-%m-%d %H:%M:%S.%f",\n      "%Y-%m-%d %H:%M",\n      "%m/%d/%Y %H:%M:%S",\n      "%m/%d/%Y %H:%M:%S.%f",\n      "%m/%d/%Y %H:%M",\n      "%m/%d/%y %H:%M:%S",\n      "%m/%d/%y %H:%M:%S.%f",\n      "%m/%d/%y %H:%M",\n      "%Y-%m-%d"\n    ],\n    "DATE_FORMAT": "N j, Y",\n    "DATE_INPUT_FORMATS": [\n      "%Y-%m-%d",\n      "%m/%d/%Y",\n      "%m/%d/%y"\n    ],\n    "DECIMAL_SEPARATOR": ".",\n    "FIRST_DAY_OF_WEEK": 0,\n    "MONTH_DAY_FORMAT": "F j",\n    "NUMBER_GROUPING": 3,\n    "SHORT_DATETIME_FORMAT": "m/d/Y P",\n    "SHORT_DATE_FORMAT": "m/d/Y",\n    "THOUSAND_SEPARATOR": ",",\n    "TIME_FORMAT": "P",\n    "TIME_INPUT_FORMATS": [\n      "%H:%M:%S",\n      "%H:%M:%S.%f",\n      "%H:%M"\n    ],\n    "YEAR_MONTH_FORMAT": "F Y"\n  };\n\n    django.get_format = function(format_type) {\n      const value = django.formats[format_type];\n      if (typeof value === \'undefined\') {\n        return format_type;\n      } else {\n        return value;\n      }\n    };\n\n    /* add to global namespace */\n    globals.pluralidx = django.pluralidx;\n    globals.gettext = django.gettext;\n    globals.ngettext = django.ngettext;\n    globals.gettext_noop = django.gettext_noop;\n    globals.pgettext = django.pgettext;\n    globals.npgettext = django.npgettext;\n    globals.interpolate = django.interpolate;\n    globals.get_format = django.get_format;\n\n    django.jsi18n_initialized = true;\n  }\n};\n\n'
+
+Time: 2021-07-06 05:45:57,700; Level: INFO
+ Request Start
+URL: DELETE/db/9/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "2cd37342-095b-4b8e-8550-13d6865c12cf",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 05:45:57,896; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:404
+Body:b'{"detail":"Not found."}'
+
+Time: 2021-07-06 05:45:57,897; Level: WARNING
+ Not Found: /db/9/
+Time: 2021-07-06 05:49:25,021; Level: INFO
+ Request Start
+URL: GET/admin/testDB/test_db/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "support.keyfreecar.co.kr",
+	"Connection": "keep-alive",
+	"Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+	"Sec-Ch-Ua-Mobile": "?0",
+	"Upgrade-Insecure-Requests": "1",
+	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+	"Sec-Fetch-Site": "same-origin",
+	"Sec-Fetch-Mode": "navigate",
+	"Sec-Fetch-User": "?1",
+	"Sec-Fetch-Dest": "document",
+	"Referer": "https://support.keyfreecar.co.kr/admin/auth/user/",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+	"Cookie": "csrftoken=MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf; sessionid=cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Body:{}
+Cookie:{
+	"csrftoken": "MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf",
+	"sessionid": "cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Request Done
+
+Time: 2021-07-06 05:49:25,131; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8",
+	"Expires": "Tue, 06 Jul 2021 05:49:25 GMT",
+	"Cache-Control": "max-age=0, no-cache, no-store, must-revalidate, private",
+	"Vary": "Cookie"
+}
+Code:200
+Body:b'<!DOCTYPE html>\n\n<html lang="en-us" dir="ltr">\n<head>\n<title>Select test_db to change | Django site admin</title>\n<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css">\n\n  <link rel="stylesheet" type="text/css" href="/static/admin/css/nav_sidebar.css">\n  <script src="/static/admin/js/nav_sidebar.js" defer></script>\n\n\n  \n  <link rel="stylesheet" type="text/css" href="/static/admin/css/changelists.css">\n  \n  \n    <script src="/admin/jsi18n/"></script>\n  \n  \n  \n\n\n\n\n<script src="/static/admin/js/vendor/jquery/jquery.js"></script>\n<script src="/static/admin/js/jquery.init.js"></script>\n<script src="/static/admin/js/core.js"></script>\n<script src="/static/admin/js/admin/RelatedObjectLookups.js"></script>\n<script src="/static/admin/js/actions.js"></script>\n<script src="/static/admin/js/urlify.js"></script>\n<script src="/static/admin/js/prepopulate.js"></script>\n<script src="/static/admin/js/vendor/xregexp/xregexp.js"></script>\n\n\n    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">\n    <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css">\n    \n\n<meta name="robots" content="NONE,NOARCHIVE">\n</head>\n\n\n<body class=" app-testDB model-test_db change-list"\n  data-admin-utc-offset="0">\n\n<!-- Container -->\n<div id="container">\n\n    \n    <!-- Header -->\n    <div id="header">\n        <div id="branding">\n        \n<h1 id="site-name"><a href="/admin/">Django administration</a></h1>\n\n        </div>\n        \n        \n        <div id="user-tools">\n            \n                Welcome,\n                <strong>root</strong>.\n            \n            \n                \n                    <a href="/">View site</a> /\n                \n                \n                    \n                    \n                \n                \n                <a href="/admin/password_change/">Change password</a> /\n                \n                <a href="/admin/logout/">Log out</a>\n            \n        </div>\n        \n        \n        \n    </div>\n    <!-- END Header -->\n    \n<div class="breadcrumbs">\n<a href="/admin/">Home</a>\n&rsaquo; <a href="/admin/testDB/">Testdb</a>\n&rsaquo; Test_dbs\n</div>\n\n    \n\n    <div class="main shifted" id="main">\n      \n        \n          \n<button class="sticky toggle-nav-sidebar" id="toggle-nav-sidebar" aria-label="Toggle navigation"></button>\n<nav class="sticky" id="nav-sidebar">\n  \n\n\n  \n    <div class="app-auth module">\n      <table>\n        <caption>\n          <a href="/admin/auth/" class="section" title="Models in the Authentication and Authorization application">Authentication and Authorization</a>\n        </caption>\n        \n          <tr class="model-group">\n            \n              <th scope="row"><a href="/admin/auth/group/">Groups</a></th>\n            \n\n            \n              <td><a href="/admin/auth/group/add/" class="addlink">Add</a></td>\n            \n\n            \n          </tr>\n        \n          <tr class="model-user">\n            \n              <th scope="row"><a href="/admin/auth/user/">Users</a></th>\n            \n\n            \n              <td><a href="/admin/auth/user/add/" class="addlink">Add</a></td>\n            \n\n            \n          </tr>\n        \n      </table>\n    </div>\n  \n    <div class="app-testDB module current-app">\n      <table>\n        <caption>\n          <a href="/admin/testDB/" class="section" title="Models in the Testdb application">Testdb</a>\n        </caption>\n        \n          <tr class="model-test_db current-model">\n            \n              <th scope="row"><a href="/admin/testDB/test_db/" aria-current="page">Test_dbs</a></th>\n            \n\n            \n              <td><a href="/admin/testDB/test_db/add/" class="addlink">Add</a></td>\n            \n\n            \n          </tr>\n        \n      </table>\n    </div>\n  \n\n\n</nav>\n\n        \n      \n      <div class="content">\n        \n          \n        \n        <!-- Content -->\n        <div id="content" class="">\n          \n          <h1>Select test_db to change</h1>\n          \n          \n  <div id="content-main">\n    \n        <ul class="object-tools">\n          \n            \n\n\n  \n  <li>\n    \n    <a href="/admin/testDB/test_db/add/" class="addlink">\n      Add test_db\n    </a>\n  </li>\n  \n\n\n          \n        </ul>\n    \n    \n    <div class="module" id="changelist">\n      <div class="changelist-form-container">\n        \n\n\n        \n\n        <form id="changelist-form" method="post" novalidate><input type="hidden" name="csrfmiddlewaretoken" value="XjE898bM7V89VIqIGB3IFERlLNtE0iDXo6lTfkY0GWqZkTO3o0ZpYsirCuEzi4Qh">\n        \n\n        \n          \n<div class="actions">\n  \n    \n    <label>Action: <select name="action" required>\n  <option value="" selected>---------</option>\n\n  <option value="delete_selected">Delete selected test_dbs</option>\n\n</select></label><input type="hidden" name="select_across" value="0" class="select-across">\n    \n    \n    <button type="submit" class="button" title="Run the selected action" name="index" value="0">Go</button>\n    \n    \n    \n        <span class="action-counter" data-actions-icnt="11">0 of 11 selected</span>\n        \n    \n    \n  \n</div>\n\n          \n\n\n<div class="results">\n<table id="result_list">\n<thead>\n<tr>\n\n<th scope="col" class="action-checkbox-column">\n   \n   <div class="text"><span><input type="checkbox" id="action-toggle"></span></div>\n   <div class="clear"></div>\n</th>\n<th scope="col" class="column-__str__">\n   \n   <div class="text"><span>Test_db</span></div>\n   <div class="clear"></div>\n</th>\n</tr>\n</thead>\n<tbody>\n\n\n<tr><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="12" class="action-select"></td><th class="field-__str__"><a href="/admin/testDB/test_db/12/change/">[12] put_test_db 890 to 100000</a></th></tr>\n\n\n<tr><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="11" class="action-select"></td><th class="field-__str__"><a href="/admin/testDB/test_db/11/change/">[11] test_object_6_ssh_check</a></th></tr>\n\n\n<tr><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="10" class="action-select"></td><th class="field-__str__"><a href="/admin/testDB/test_db/10/change/">[10] test_object_6_ssh_check</a></th></tr>\n\n\n<tr><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="8" class="action-select"></td><th class="field-__str__"><a href="/admin/testDB/test_db/8/change/">[8] test_object_6_ssh_check</a></th></tr>\n\n\n<tr><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="7" class="action-select"></td><th class="field-__str__"><a href="/admin/testDB/test_db/7/change/">[7] test_object_6_ssh_check</a></th></tr>\n\n\n<tr><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="6" class="action-select"></td><th class="field-__str__"><a href="/admin/testDB/test_db/6/change/">[6] test_object_6_ssh_check</a></th></tr>\n\n\n<tr><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="5" class="action-select"></td><th class="field-__str__"><a href="/admin/testDB/test_db/5/change/">[5] test_object_5</a></th></tr>\n\n\n<tr><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="4" class="action-select"></td><th class="field-__str__"><a href="/admin/testDB/test_db/4/change/">[4] test_object_4</a></th></tr>\n\n\n<tr><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="3" class="action-select"></td><th class="field-__str__"><a href="/admin/testDB/test_db/3/change/">[3] test_object_3</a></th></tr>\n\n\n<tr><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="2" class="action-select"></td><th class="field-__str__"><a href="/admin/testDB/test_db/2/change/">[2] test_object_2</a></th></tr>\n\n\n<tr><td class="action-checkbox"><input type="checkbox" name="_selected_action" value="1" class="action-select"></td><th class="field-__str__"><a href="/admin/testDB/test_db/1/change/">[1] test_object_1</a></th></tr>\n\n</tbody>\n</table>\n</div>\n\n\n          \n        \n        \n\n<p class="paginator">\n\n11 test_dbs\n\n\n</p>\n\n        </form>\n      </div>\n      \n        \n      \n    </div>\n  </div>\n\n          \n          <br class="clear">\n        </div>\n        <!-- END Content -->\n        <div id="footer"></div>\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n'
+
+Time: 2021-07-06 05:49:25,388; Level: INFO
+ Request Start
+URL: GET/admin/jsi18n/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "support.keyfreecar.co.kr",
+	"Connection": "keep-alive",
+	"Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+	"Sec-Ch-Ua-Mobile": "?0",
+	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+	"Accept": "*/*",
+	"Sec-Fetch-Site": "same-origin",
+	"Sec-Fetch-Mode": "no-cors",
+	"Sec-Fetch-Dest": "script",
+	"Referer": "https://support.keyfreecar.co.kr/admin/testDB/test_db/",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+	"Cookie": "csrftoken=MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf; sessionid=cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Body:{}
+Cookie:{
+	"csrftoken": "MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf",
+	"sessionid": "cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Request Done
+
+Time: 2021-07-06 05:49:25,409; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/javascript; charset=\"utf-8\""
+}
+Code:200
+Body:b'\n\n\'use strict\';\n{\n  const globals = this;\n  const django = globals.django || (globals.django = {});\n\n  \n  django.pluralidx = function(count) { return (count == 1) ? 0 : 1; };\n  \n\n  /* gettext library */\n\n  django.catalog = django.catalog || {};\n  \n\n  if (!django.jsi18n_initialized) {\n    django.gettext = function(msgid) {\n      const value = django.catalog[msgid];\n      if (typeof value === \'undefined\') {\n        return msgid;\n      } else {\n        return (typeof value === \'string\') ? value : value[0];\n      }\n    };\n\n    django.ngettext = function(singular, plural, count) {\n      const value = django.catalog[singular];\n      if (typeof value === \'undefined\') {\n        return (count == 1) ? singular : plural;\n      } else {\n        return value.constructor === Array ? value[django.pluralidx(count)] : value;\n      }\n    };\n\n    django.gettext_noop = function(msgid) { return msgid; };\n\n    django.pgettext = function(context, msgid) {\n      let value = django.gettext(context + \'\\x04\' + msgid);\n      if (value.includes(\'\\x04\')) {\n        value = msgid;\n      }\n      return value;\n    };\n\n    django.npgettext = function(context, singular, plural, count) {\n      let value = django.ngettext(context + \'\\x04\' + singular, context + \'\\x04\' + plural, count);\n      if (value.includes(\'\\x04\')) {\n        value = django.ngettext(singular, plural, count);\n      }\n      return value;\n    };\n\n    django.interpolate = function(fmt, obj, named) {\n      if (named) {\n        return fmt.replace(/%\\(\\w+\\)s/g, function(match){return String(obj[match.slice(2,-2)])});\n      } else {\n        return fmt.replace(/%s/g, function(match){return String(obj.shift())});\n      }\n    };\n\n\n    /* formatting library */\n\n    django.formats = {\n    "DATETIME_FORMAT": "N j, Y, P",\n    "DATETIME_INPUT_FORMATS": [\n      "%Y-%m-%d %H:%M:%S",\n      "%Y-%m-%d %H:%M:%S.%f",\n      "%Y-%m-%d %H:%M",\n      "%m/%d/%Y %H:%M:%S",\n      "%m/%d/%Y %H:%M:%S.%f",\n      "%m/%d/%Y %H:%M",\n      "%m/%d/%y %H:%M:%S",\n      "%m/%d/%y %H:%M:%S.%f",\n      "%m/%d/%y %H:%M",\n      "%Y-%m-%d"\n    ],\n    "DATE_FORMAT": "N j, Y",\n    "DATE_INPUT_FORMATS": [\n      "%Y-%m-%d",\n      "%m/%d/%Y",\n      "%m/%d/%y"\n    ],\n    "DECIMAL_SEPARATOR": ".",\n    "FIRST_DAY_OF_WEEK": 0,\n    "MONTH_DAY_FORMAT": "F j",\n    "NUMBER_GROUPING": 3,\n    "SHORT_DATETIME_FORMAT": "m/d/Y P",\n    "SHORT_DATE_FORMAT": "m/d/Y",\n    "THOUSAND_SEPARATOR": ",",\n    "TIME_FORMAT": "P",\n    "TIME_INPUT_FORMATS": [\n      "%H:%M:%S",\n      "%H:%M:%S.%f",\n      "%H:%M"\n    ],\n    "YEAR_MONTH_FORMAT": "F Y"\n  };\n\n    django.get_format = function(format_type) {\n      const value = django.formats[format_type];\n      if (typeof value === \'undefined\') {\n        return format_type;\n      } else {\n        return value;\n      }\n    };\n\n    /* add to global namespace */\n    globals.pluralidx = django.pluralidx;\n    globals.gettext = django.gettext;\n    globals.ngettext = django.ngettext;\n    globals.gettext_noop = django.gettext_noop;\n    globals.pgettext = django.pgettext;\n    globals.npgettext = django.npgettext;\n    globals.interpolate = django.interpolate;\n    globals.get_format = django.get_format;\n\n    django.jsi18n_initialized = true;\n  }\n};\n\n'
+
+Time: 2021-07-06 05:49:27,667; Level: INFO
+ Request Start
+URL: GET/admin/testDB/test_db/12/change/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "support.keyfreecar.co.kr",
+	"Connection": "keep-alive",
+	"Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+	"Sec-Ch-Ua-Mobile": "?0",
+	"Upgrade-Insecure-Requests": "1",
+	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+	"Sec-Fetch-Site": "same-origin",
+	"Sec-Fetch-Mode": "navigate",
+	"Sec-Fetch-User": "?1",
+	"Sec-Fetch-Dest": "document",
+	"Referer": "https://support.keyfreecar.co.kr/admin/testDB/test_db/",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+	"Cookie": "csrftoken=MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf; sessionid=cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Body:{}
+Cookie:{
+	"csrftoken": "MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf",
+	"sessionid": "cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Request Done
+
+Time: 2021-07-06 05:49:27,728; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8",
+	"Expires": "Tue, 06 Jul 2021 05:49:27 GMT",
+	"Cache-Control": "max-age=0, no-cache, no-store, must-revalidate, private",
+	"Vary": "Cookie"
+}
+Code:200
+Body:b'<!DOCTYPE html>\n\n<html lang="en-us" dir="ltr">\n<head>\n<title>[12] put_test_db 890 to 100000 | Change test_db | Django site admin</title>\n<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css">\n\n  <link rel="stylesheet" type="text/css" href="/static/admin/css/nav_sidebar.css">\n  <script src="/static/admin/js/nav_sidebar.js" defer></script>\n\n<link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css">\n\n\n<script src="/admin/jsi18n/"></script>\n<script src="/static/admin/js/vendor/jquery/jquery.js"></script>\n<script src="/static/admin/js/jquery.init.js"></script>\n<script src="/static/admin/js/core.js"></script>\n<script src="/static/admin/js/admin/RelatedObjectLookups.js"></script>\n<script src="/static/admin/js/actions.js"></script>\n<script src="/static/admin/js/urlify.js"></script>\n<script src="/static/admin/js/prepopulate.js"></script>\n<script src="/static/admin/js/vendor/xregexp/xregexp.js"></script>\n\n\n    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">\n    <link rel="stylesheet" type="text/css" href="/static/admin/css/responsive.css">\n    \n\n<meta name="robots" content="NONE,NOARCHIVE">\n</head>\n\n\n<body class=" app-testDB model-test_db change-form"\n  data-admin-utc-offset="0">\n\n<!-- Container -->\n<div id="container">\n\n    \n    <!-- Header -->\n    <div id="header">\n        <div id="branding">\n        \n<h1 id="site-name"><a href="/admin/">Django administration</a></h1>\n\n        </div>\n        \n        \n        <div id="user-tools">\n            \n                Welcome,\n                <strong>root</strong>.\n            \n            \n                \n                    <a href="/">View site</a> /\n                \n                \n                    \n                    \n                \n                \n                <a href="/admin/password_change/">Change password</a> /\n                \n                <a href="/admin/logout/">Log out</a>\n            \n        </div>\n        \n        \n        \n    </div>\n    <!-- END Header -->\n    \n<div class="breadcrumbs">\n<a href="/admin/">Home</a>\n&rsaquo; <a href="/admin/testDB/">Testdb</a>\n&rsaquo; <a href="/admin/testDB/test_db/">Test_dbs</a>\n&rsaquo; [12] put_test_db 890 to 100000\n</div>\n\n    \n\n    <div class="main shifted" id="main">\n      \n        \n          \n<button class="sticky toggle-nav-sidebar" id="toggle-nav-sidebar" aria-label="Toggle navigation"></button>\n<nav class="sticky" id="nav-sidebar">\n  \n\n\n  \n    <div class="app-auth module">\n      <table>\n        <caption>\n          <a href="/admin/auth/" class="section" title="Models in the Authentication and Authorization application">Authentication and Authorization</a>\n        </caption>\n        \n          <tr class="model-group">\n            \n              <th scope="row"><a href="/admin/auth/group/">Groups</a></th>\n            \n\n            \n              <td><a href="/admin/auth/group/add/" class="addlink">Add</a></td>\n            \n\n            \n          </tr>\n        \n          <tr class="model-user">\n            \n              <th scope="row"><a href="/admin/auth/user/">Users</a></th>\n            \n\n            \n              <td><a href="/admin/auth/user/add/" class="addlink">Add</a></td>\n            \n\n            \n          </tr>\n        \n      </table>\n    </div>\n  \n    <div class="app-testDB module current-app">\n      <table>\n        <caption>\n          <a href="/admin/testDB/" class="section" title="Models in the Testdb application">Testdb</a>\n        </caption>\n        \n          <tr class="model-test_db current-model">\n            \n              <th scope="row"><a href="/admin/testDB/test_db/" aria-current="page">Test_dbs</a></th>\n            \n\n            \n              <td><a href="/admin/testDB/test_db/add/" class="addlink">Add</a></td>\n            \n\n            \n          </tr>\n        \n      </table>\n    </div>\n  \n\n\n</nav>\n\n        \n      \n      <div class="content">\n        \n          \n        \n        <!-- Content -->\n        <div id="content" class="colM">\n          \n          <h1>Change test_db</h1>\n          <h2>[12] put_test_db 890 to 100000</h2>\n          <div id="content-main">\n\n\n  <ul class="object-tools">\n    \n      \n\n<li>\n    \n    <a href="/admin/testDB/test_db/12/history/" class="historylink">History</a>\n</li>\n\n\n\n    \n  </ul>\n\n\n<form method="post" id="test_db_form" novalidate><input type="hidden" name="csrfmiddlewaretoken" value="RB2HonQOyDZ45eqtNDkfxAemnCSrTSmHioJsuzD27EhUupOOv2gWQoFsej3mbEz1">\n<div>\n\n\n\n\n\n\n\n  <fieldset class="module aligned ">\n    \n    \n    \n        <div class="form-row field-test_char">\n            \n            \n                <div>\n                    \n                    \n                        <label class="required" for="id_test_char">Test char:</label>\n                        \n                            <input type="text" name="test_char" value="put_test_db 890 to 100000" class="vTextField" maxlength="30" required id="id_test_char">\n                        \n                    \n                    \n                </div>\n            \n        </div>\n    \n        <div class="form-row field-test_email">\n            \n            \n                <div>\n                    \n                    \n                        <label class="required" for="id_test_email">Test email:</label>\n                        \n                            <input type="email" name="test_email" value="joon2387@naver.com" class="vTextField" maxlength="254" required id="id_test_email">\n                        \n                    \n                    \n                </div>\n            \n        </div>\n    \n        <div class="form-row field-test_integer">\n            \n            \n                <div>\n                    \n                    \n                        <label class="required" for="id_test_integer">Test integer:</label>\n                        \n                            <input type="number" name="test_integer" value="2016024893" class="vIntegerField" required id="id_test_integer">\n                        \n                    \n                    \n                </div>\n            \n        </div>\n    \n        <div class="form-row field-test_float">\n            \n            \n                <div>\n                    \n                    \n                        <label class="required" for="id_test_float">Test float:</label>\n                        \n                            <input type="number" name="test_float" value="100000" class="vIntegerField" required id="id_test_float">\n                        \n                    \n                    \n                </div>\n            \n        </div>\n    \n</fieldset>\n\n\n\n\n\n\n\n\n\n\n\n\n\n<div class="submit-row">\n\n<input type="submit" value="Save" class="default" name="_save">\n\n    \n    <p class="deletelink-box"><a href="/admin/testDB/test_db/12/delete/" class="deletelink">Delete</a></p>\n\n\n<input type="submit" value="Save and add another" name="_addanother">\n<input type="submit" value="Save and continue editing" name="_continue">\n\n\n</div>\n\n\n\n    <script id="django-admin-form-add-constants"\n            src="/static/admin/js/change_form.js"\n            \n            async>\n    </script>\n\n\n\n\n<script id="django-admin-prepopulated-fields-constants"\n        src="/static/admin/js/prepopulate_init.js"\n        data-prepopulated-fields="[]">\n</script>\n\n\n</div>\n</form></div>\n\n          \n          <br class="clear">\n        </div>\n        <!-- END Content -->\n        <div id="footer"></div>\n      </div>\n    </div>\n</div>\n<!-- END Container -->\n</body>\n</html>\n'
+
+Time: 2021-07-06 05:49:28,119; Level: INFO
+ Request Start
+URL: GET/admin/jsi18n/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "support.keyfreecar.co.kr",
+	"Connection": "keep-alive",
+	"Sec-Ch-Ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\"",
+	"Sec-Ch-Ua-Mobile": "?0",
+	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36",
+	"Accept": "*/*",
+	"Sec-Fetch-Site": "same-origin",
+	"Sec-Fetch-Mode": "no-cors",
+	"Sec-Fetch-Dest": "script",
+	"Referer": "https://support.keyfreecar.co.kr/admin/testDB/test_db/12/change/",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+	"Cookie": "csrftoken=MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf; sessionid=cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Body:{}
+Cookie:{
+	"csrftoken": "MurBe3ORtWyH66dxnRkkecn1rsEfzwyVdh8mkfB52XQxvhBS5gg1x0O7i9PaRiLf",
+	"sessionid": "cn0t2g0x7xw29s0vlqkt0rn8vjyh19rj"
+}
+Request Done
+
+Time: 2021-07-06 05:49:28,142; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/javascript; charset=\"utf-8\""
+}
+Code:200
+Body:b'\n\n\'use strict\';\n{\n  const globals = this;\n  const django = globals.django || (globals.django = {});\n\n  \n  django.pluralidx = function(count) { return (count == 1) ? 0 : 1; };\n  \n\n  /* gettext library */\n\n  django.catalog = django.catalog || {};\n  \n\n  if (!django.jsi18n_initialized) {\n    django.gettext = function(msgid) {\n      const value = django.catalog[msgid];\n      if (typeof value === \'undefined\') {\n        return msgid;\n      } else {\n        return (typeof value === \'string\') ? value : value[0];\n      }\n    };\n\n    django.ngettext = function(singular, plural, count) {\n      const value = django.catalog[singular];\n      if (typeof value === \'undefined\') {\n        return (count == 1) ? singular : plural;\n      } else {\n        return value.constructor === Array ? value[django.pluralidx(count)] : value;\n      }\n    };\n\n    django.gettext_noop = function(msgid) { return msgid; };\n\n    django.pgettext = function(context, msgid) {\n      let value = django.gettext(context + \'\\x04\' + msgid);\n      if (value.includes(\'\\x04\')) {\n        value = msgid;\n      }\n      return value;\n    };\n\n    django.npgettext = function(context, singular, plural, count) {\n      let value = django.ngettext(context + \'\\x04\' + singular, context + \'\\x04\' + plural, count);\n      if (value.includes(\'\\x04\')) {\n        value = django.ngettext(singular, plural, count);\n      }\n      return value;\n    };\n\n    django.interpolate = function(fmt, obj, named) {\n      if (named) {\n        return fmt.replace(/%\\(\\w+\\)s/g, function(match){return String(obj[match.slice(2,-2)])});\n      } else {\n        return fmt.replace(/%s/g, function(match){return String(obj.shift())});\n      }\n    };\n\n\n    /* formatting library */\n\n    django.formats = {\n    "DATETIME_FORMAT": "N j, Y, P",\n    "DATETIME_INPUT_FORMATS": [\n      "%Y-%m-%d %H:%M:%S",\n      "%Y-%m-%d %H:%M:%S.%f",\n      "%Y-%m-%d %H:%M",\n      "%m/%d/%Y %H:%M:%S",\n      "%m/%d/%Y %H:%M:%S.%f",\n      "%m/%d/%Y %H:%M",\n      "%m/%d/%y %H:%M:%S",\n      "%m/%d/%y %H:%M:%S.%f",\n      "%m/%d/%y %H:%M",\n      "%Y-%m-%d"\n    ],\n    "DATE_FORMAT": "N j, Y",\n    "DATE_INPUT_FORMATS": [\n      "%Y-%m-%d",\n      "%m/%d/%Y",\n      "%m/%d/%y"\n    ],\n    "DECIMAL_SEPARATOR": ".",\n    "FIRST_DAY_OF_WEEK": 0,\n    "MONTH_DAY_FORMAT": "F j",\n    "NUMBER_GROUPING": 3,\n    "SHORT_DATETIME_FORMAT": "m/d/Y P",\n    "SHORT_DATE_FORMAT": "m/d/Y",\n    "THOUSAND_SEPARATOR": ",",\n    "TIME_FORMAT": "P",\n    "TIME_INPUT_FORMATS": [\n      "%H:%M:%S",\n      "%H:%M:%S.%f",\n      "%H:%M"\n    ],\n    "YEAR_MONTH_FORMAT": "F Y"\n  };\n\n    django.get_format = function(format_type) {\n      const value = django.formats[format_type];\n      if (typeof value === \'undefined\') {\n        return format_type;\n      } else {\n        return value;\n      }\n    };\n\n    /* add to global namespace */\n    globals.pluralidx = django.pluralidx;\n    globals.gettext = django.gettext;\n    globals.ngettext = django.ngettext;\n    globals.gettext_noop = django.gettext_noop;\n    globals.pgettext = django.pgettext;\n    globals.npgettext = django.npgettext;\n    globals.interpolate = django.interpolate;\n    globals.get_format = django.get_format;\n\n    django.jsi18n_initialized = true;\n  }\n};\n\n'
+
+Time: 2021-07-06 08:30:24,936; Level: INFO
+ Request Start
+URL: GET/db/5/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Referer": "https://support.keyfreecar.co.kr/db/5",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "203b3d72-0e68-45f4-80d2-4bdec2d4d57c",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive",
+	"Host": "support.keyfreecar.co.kr"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 08:30:24,991; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":5,"created_at":"2021-07-02T07:37:21.736841Z","updated_at":"2021-07-02T07:37:21.736891Z","test_char":"test_object_5","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372}'
+
+Time: 2021-07-06 08:44:55,774; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Connection": "close",
+	"User-Agent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36",
+	"Host": "18.218.37.167"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 08:44:55,784; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 08:44:55,784; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 08:46:34,007; Level: INFO
+ Request Start
+URL: GET/.env
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"Connection": "keep-alive",
+	"Accept-Encoding": "gzip, deflate",
+	"Accept": "*/*",
+	"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 08:46:34,010; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 08:46:34,011; Level: WARNING
+ Forbidden: /.env
+Time: 2021-07-06 08:46:34,803; Level: ERROR
+ Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 43, in __call__
+    self.print_request_log(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 86, in print_request_log
+    json_body_tmp = json.loads(body_tmp)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 2 (char 1)
+Time: 2021-07-06 09:25:47,281; Level: INFO
+ Request Start
+URL: GET/owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 09:25:47,284; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 09:25:47,285; Level: WARNING
+ Forbidden: /owa/auth/logon.aspx
+Time: 2021-07-06 10:32:44,591; Level: INFO
+ Request Start
+URL: GET/admin/connection/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",
+	"Accept-Encoding": "gzip, deflate",
+	"Accept": "*/*",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 10:32:44,601; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 10:32:44,601; Level: WARNING
+ Forbidden: /admin/connection/
+Time: 2021-07-06 10:32:44,810; Level: INFO
+ Request Start
+URL: GET/favicon.ico
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",
+	"Accept-Encoding": "gzip, deflate",
+	"Accept": "*/*",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 10:32:44,814; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 10:32:44,814; Level: WARNING
+ Forbidden: /favicon.ico
+Time: 2021-07-06 12:59:30,309; Level: INFO
+ Request Start
+URL: GET/robots.txt
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 12:59:30,313; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 12:59:30,313; Level: WARNING
+ Forbidden: /robots.txt
+Time: 2021-07-06 13:20:42,909; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:20:42,913; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:20:42,914; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 13:20:43,028; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:20:43,031; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:20:43,031; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 13:28:55,365; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:28:55,369; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:28:55,369; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 13:28:55,483; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:28:55,486; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:28:55,486; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 13:31:54,088; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:31:54,092; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:31:54,092; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 13:35:23,776; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:35:23,780; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:35:23,780; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 13:48:47,189; Level: INFO
+ Request Start
+URL: GET/?XDEBUG_SESSION_START=phpstorm
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:48:47,192; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:48:47,193; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 13:48:48,433; Level: ERROR
+ Internal Server Error: /Autodiscover/Autodiscover.xml
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 43, in __call__
+    self.print_request_log(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 86, in print_request_log
+    json_body_tmp = json.loads(body_tmp)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Time: 2021-07-06 13:48:49,879; Level: INFO
+ Request Start
+URL: POST/api/jsonws/invoke
+Header:{
+	"Content-Length": "0",
+	"Content-Type": "application/json",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:48:49,883; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:48:49,883; Level: WARNING
+ Forbidden: /api/jsonws/invoke
+Time: 2021-07-06 13:48:50,556; Level: INFO
+ Request Start
+URL: GET/_ignition/execute-solution
+Header:{
+	"Content-Length": "",
+	"Content-Type": "application/json",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:48:50,559; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:48:50,559; Level: WARNING
+ Forbidden: /_ignition/execute-solution
+Time: 2021-07-06 13:48:51,487; Level: ERROR
+ Internal Server Error: /mifs/.;/services/LogService
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 43, in __call__
+    self.print_request_log(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 86, in print_request_log
+    json_body_tmp = json.loads(body_tmp)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Time: 2021-07-06 13:48:52,951; Level: INFO
+ Request Start
+URL: GET/wp-content/plugins/wp-file-manager/readme.txt
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:48:52,954; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:48:52,954; Level: WARNING
+ Forbidden: /wp-content/plugins/wp-file-manager/readme.txt
+Time: 2021-07-06 13:48:54,087; Level: ERROR
+ Internal Server Error: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 43, in __call__
+    self.print_request_log(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 86, in print_request_log
+    json_body_tmp = json.loads(body_tmp)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Time: 2021-07-06 13:48:55,055; Level: INFO
+ Request Start
+URL: GET/console/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:48:55,058; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:48:55,059; Level: WARNING
+ Forbidden: /console/
+Time: 2021-07-06 13:48:56,778; Level: ERROR
+ Internal Server Error: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 43, in __call__
+    self.print_request_log(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 86, in print_request_log
+    json_body_tmp = json.loads(body_tmp)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Time: 2021-07-06 13:48:58,594; Level: INFO
+ Request Start
+URL: GET/index.php?s=/Index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:48:58,597; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:48:58,597; Level: WARNING
+ Forbidden: /index.php
+Time: 2021-07-06 13:48:59,913; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:48:59,916; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:48:59,917; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 14:17:12,360; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 14:17:12,364; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 14:17:12,364; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 14:17:15,292; Level: INFO
+ Request Start
+URL: GET/favicon.ico
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4 240.111 Safari/537.36",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 14:17:15,295; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 14:17:15,295; Level: WARNING
+ Forbidden: /favicon.ico
+Time: 2021-07-06 14:17:16,901; Level: INFO
+ Request Start
+URL: GET/robots.txt
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4 240.111 Safari/537.36",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 14:17:16,904; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 14:17:16,904; Level: WARNING
+ Forbidden: /robots.txt
+Time: 2021-07-06 14:17:19,711; Level: INFO
+ Request Start
+URL: GET/.well-known/security.txt
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4 240.111 Safari/537.36",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 14:17:19,714; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 14:17:19,714; Level: WARNING
+ Forbidden: /.well-known/security.txt
+Time: 2021-07-06 14:51:19,800; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 14:51:19,803; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 14:51:19,803; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 14:51:20,040; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 14:51:20,043; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 14:51:20,044; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 15:35:13,804; Level: INFO
+ Request Start
+URL: GET/owa/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 15:35:13,807; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 15:35:13,807; Level: WARNING
+ Forbidden: /owa/
+Time: 2021-07-06 15:58:49,520; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 15:58:49,523; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 15:58:49,524; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 16:02:05,538; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 16:02:05,541; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 16:02:05,541; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 19:34:16,542; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 19:34:16,547; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 19:34:16,547; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 20:29:40,899; Level: INFO
+ Request Start
+URL: GET/ReportServer
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 20:29:40,902; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 20:29:40,903; Level: WARNING
+ Forbidden: /ReportServer
+Time: 2021-07-06 21:31:08,639; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:8000"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 21:31:08,643; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 21:31:08,643; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 21:31:08,738; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:8000",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 21:31:08,741; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 21:31:08,742; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 21:42:57,697; Level: INFO
+ Request Start
+URL: GET/login
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 21:42:57,700; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 21:42:57,701; Level: WARNING
+ Forbidden: /login
+Time: 2021-07-06 22:33:18,503; Level: INFO
+ Request Start
+URL: GET/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 22:33:18,506; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 22:33:18,506; Level: WARNING
+ Forbidden: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+Time: 2021-07-06 22:41:48,028; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 22:41:48,032; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 22:41:48,032; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 22:41:48,127; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 22:41:48,130; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 22:41:48,130; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 23:08:49,739; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 23:08:49,743; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 23:08:49,743; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 23:08:50,047; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 23:08:50,050; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 23:08:50,051; Level: WARNING
+ Forbidden: /

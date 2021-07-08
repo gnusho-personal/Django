@@ -1,0 +1,2823 @@
+Validating models...
+
+System check identified no issues (0 silenced).
+July 05, 2021 - 01:06:10
+Django version 3.2.4, using settings 'server.settings'
+Starting development server at https://0.0.0.0:8000/
+Using SSL certificate: /etc/letsencrypt/archive/support.keyfreecar.co.kr/fullchain3.pem
+Using SSL key: /etc/letsencrypt/archive/support.keyfreecar.co.kr/privkey3.pem
+Quit the server with CONTROL-C.
+Time: 2021-07-05 01:06:42,431; Level: INFO
+ Request Start
+URL: GET/db/1/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "bb0f8f73-3132-4475-a626-393df7262bc1",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive",
+	"Referer": "https://support.keyfreecar.co.kr/db/1",
+	"Host": "support.keyfreecar.co.kr"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 01:06:42,475; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":1,"created_at":"2021-07-02T07:37:08.684265Z","updated_at":"2021-07-02T07:37:08.684321Z","test_char":"test_object_1","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372}'
+
+Time: 2021-07-05 01:07:32,844; Level: INFO
+ Request Start
+URL: GET/db/1/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "d1c7a8c3-5a1b-4fa6-890b-c0e8e69a0cdd",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive",
+	"Referer": "https://support.keyfreecar.co.kr/db/1",
+	"Host": "support.keyfreecar.co.kr"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 01:07:32,899; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":1,"created_at":"2021-07-02T07:37:08.684265Z","updated_at":"2021-07-02T07:37:08.684321Z","test_char":"test_object_1","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372}'
+
+Time: 2021-07-05 01:07:36,977; Level: INFO
+ Request Start
+URL: GET/db/3/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "c57bdbad-1c6e-4f52-847c-802b216a9dfc",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive",
+	"Referer": "https://support.keyfreecar.co.kr/db/3",
+	"Host": "support.keyfreecar.co.kr"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 01:07:36,994; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":3,"created_at":"2021-07-02T07:37:15.730226Z","updated_at":"2021-07-02T07:37:15.730273Z","test_char":"test_object_3","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372}'
+
+Validating models...
+
+System check identified no issues (0 silenced).
+July 05, 2021 - 01:19:54
+Django version 3.2.4, using settings 'server.settings'
+Starting development server at https://0.0.0.0:8000/
+Using SSL certificate: /etc/letsencrypt/archive/support.keyfreecar.co.kr/fullchain3.pem
+Using SSL key: /etc/letsencrypt/archive/support.keyfreecar.co.kr/privkey3.pem
+Quit the server with CONTROL-C.
+Validating models...
+
+System check identified no issues (0 silenced).
+July 05, 2021 - 09:04:05
+Django version 3.2.4, using settings 'server.settings'
+Starting development server at https://0.0.0.0:8000/
+Using SSL certificate: /etc/letsencrypt/archive/support.keyfreecar.co.kr/fullchain3.pem
+Using SSL key: /etc/letsencrypt/archive/support.keyfreecar.co.kr/privkey3.pem
+Quit the server with CONTROL-C.
+Time: 2021-07-05 09:04:25,543; Level: INFO
+ Request Start
+URL: GET/db/3/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "1e7f6947-3109-49d3-87ec-23edf45e35b5",
+	"Host": "18.218.37.167",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 09:04:25,592; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-05 09:04:25,593; Level: WARNING
+ Forbidden: /db/3/
+Time: 2021-07-05 09:04:29,140; Level: INFO
+ Request Start
+URL: GET/db/8/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Referer": "\"dsafsdff\"",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "291effe8-95d4-48a1-823a-9a8d8f1d31d3",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 09:04:29,158; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:404
+Body:b'{"detail":"Not found."}'
+
+Time: 2021-07-05 09:04:29,158; Level: WARNING
+ Not Found: /db/8/
+Time: 2021-07-05 09:04:34,032; Level: INFO
+ Request Start
+URL: GET/db/7/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Referer": "\"dsafsdff\"",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "6876e550-8713-4e3e-9bec-7d1a70a47044",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 09:04:34,079; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":7,"created_at":"2021-07-05T00:52:48.723632Z","updated_at":"2021-07-05T00:52:48.724154Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372}'
+
+Time: 2021-07-05 09:22:15,622; Level: INFO
+ Request Start
+URL: GET/owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 09:22:15,634; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-05 09:22:15,634; Level: WARNING
+ Forbidden: /owa/auth/logon.aspx
+Time: 2021-07-05 10:30:06,733; Level: INFO
+ Request Start
+URL: GET/owa/auth/logon.aspx
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "curl/1.1.1",
+	"Accept-Encoding": "identity"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 10:30:06,767; Level: ERROR
+ Internal Server Error: /owa/auth/logon.aspx
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 51, in __call__
+    response = self.process_response(request, response)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 131, in process_response
+    if request.headers['host'] == '18.218.37.167':
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/http/request.py", line 424, in __getitem__
+    return super().__getitem__(key.replace('_', '-'))
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/utils/datastructures.py", line 316, in __getitem__
+    return self._store[key.lower()][1]
+KeyError: 'host'
+Time: 2021-07-05 11:07:59,227; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 11:07:59,230; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://18.218.37.167:80/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-05 11:07:59,230; Level: WARNING
+ Not Found: /
+Time: 2021-07-05 11:07:59,439; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 11:07:59,442; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://18.218.37.167:80/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-05 11:07:59,442; Level: WARNING
+ Not Found: /
+Time: 2021-07-05 13:15:33,672; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 13:15:33,675; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-05 13:15:33,675; Level: WARNING
+ Forbidden: /
+Time: 2021-07-05 13:52:31,818; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 13:52:31,821; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-05 13:52:31,821; Level: WARNING
+ Forbidden: /
+Time: 2021-07-05 13:54:53,346; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 13:54:53,349; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-05 13:54:53,349; Level: WARNING
+ Forbidden: /
+Time: 2021-07-05 16:05:30,136; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 16:05:30,139; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-05 16:05:30,139; Level: WARNING
+ Forbidden: /
+Time: 2021-07-05 16:12:48,640; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 16:12:48,643; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://18.218.37.167:443/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-05 16:12:48,644; Level: WARNING
+ Not Found: /
+Time: 2021-07-05 16:12:48,741; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 16:12:48,744; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-05 16:12:48,745; Level: WARNING
+ Forbidden: /
+Time: 2021-07-05 16:25:10,230; Level: INFO
+ Request Start
+URL: GET/owa/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 16:25:10,233; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-05 16:25:10,233; Level: WARNING
+ Forbidden: /owa/
+Time: 2021-07-05 17:12:12,309; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 17:12:12,315; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://18.218.37.167:80/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-05 17:12:12,315; Level: WARNING
+ Not Found: /
+Time: 2021-07-05 17:12:12,505; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 17:12:12,508; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://18.218.37.167:80/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-05 17:12:12,509; Level: WARNING
+ Not Found: /
+Time: 2021-07-05 18:38:58,941; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:8000",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 18:38:58,944; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://18.218.37.167:8000/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-05 18:38:58,945; Level: WARNING
+ Not Found: /
+Request body exceeded settings.DATA_UPLOAD_MAX_MEMORY_SIZE.
+Time: 2021-07-05 20:24:45,312; Level: WARNING
+ Bad Request: /sra_{BA195980-CD49-458b-9E23-C84EE0ADCD75}/
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.8/wsgiref/handlers.py", line 196, in finish_response
+    self.close()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 117, in close
+    self.get_stdin()._read_limited()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 28, in _read_limited
+    result = self.stream.read(size)
+OverflowError: cannot fit 'int' into an index-sized integer
+Time: 2021-07-05 20:43:18,335; Level: INFO
+ Request Start
+URL: GET/.env
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"Connection": "keep-alive",
+	"Accept-Encoding": "gzip, deflate",
+	"Accept": "*/*",
+	"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 20:43:18,338; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-05 20:43:18,338; Level: WARNING
+ Forbidden: /.env
+Time: 2021-07-05 20:43:18,789; Level: ERROR
+ Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 43, in __call__
+    self.print_request_log(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 86, in print_request_log
+    json_body_tmp = json.loads(body_tmp)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 2 (char 1)
+Time: 2021-07-05 21:22:36,976; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 21:22:36,979; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-05 21:22:36,980; Level: WARNING
+ Forbidden: /
+Time: 2021-07-05 21:45:52,024; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "support.keyfreecar.co.kr",
+	"User-Agent": "Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 21:45:52,028; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://support.keyfreecar.co.kr/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-05 21:45:52,028; Level: WARNING
+ Not Found: /
+Time: 2021-07-05 21:45:58,042; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 21:45:58,045; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-05 21:45:58,046; Level: WARNING
+ Forbidden: /
+Time: 2021-07-05 22:23:09,412; Level: INFO
+ Request Start
+URL: GET/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 22:23:09,416; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-05 22:23:09,416; Level: WARNING
+ Forbidden: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+Time: 2021-07-05 22:30:37,432; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 22:30:37,436; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://18.218.37.167:443/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-05 22:30:37,436; Level: WARNING
+ Not Found: /
+Time: 2021-07-05 23:11:45,863; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",
+	"Connection": "close",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 23:11:45,866; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://18.218.37.167:80/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-05 23:11:45,867; Level: WARNING
+ Not Found: /
+Time: 2021-07-05 23:12:15,574; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",
+	"Connection": "close",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 23:12:15,578; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://18.218.37.167:80/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-05 23:12:15,578; Level: WARNING
+ Not Found: /
+Time: 2021-07-05 23:12:31,380; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",
+	"Connection": "close",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-05 23:12:31,384; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://18.218.37.167:80/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-05 23:12:31,384; Level: WARNING
+ Not Found: /
+Validating models...
+
+System check identified no issues (0 silenced).
+July 05, 2021 - 23:26:53
+Django version 3.2.4, using settings 'server.settings'
+Starting development server at https://0.0.0.0:8000/
+Using SSL certificate: /etc/letsencrypt/archive/support.keyfreecar.co.kr/fullchain3.pem
+Using SSL key: /etc/letsencrypt/archive/support.keyfreecar.co.kr/privkey3.pem
+Quit the server with CONTROL-C.
+Validating models...
+
+System check identified no issues (0 silenced).
+July 06, 2021 - 08:28:25
+Django version 3.2.4, using settings 'server.settings'
+Starting development server at https://0.0.0.0:8000/
+Using SSL certificate: /etc/letsencrypt/archive/support.keyfreecar.co.kr/fullchain3.pem
+Using SSL key: /etc/letsencrypt/archive/support.keyfreecar.co.kr/privkey3.pem
+Quit the server with CONTROL-C.
+Time: 2021-07-06 08:30:24,936; Level: INFO
+ Request Start
+URL: GET/db/5/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Referer": "https://support.keyfreecar.co.kr/db/5",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "203b3d72-0e68-45f4-80d2-4bdec2d4d57c",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive",
+	"Host": "support.keyfreecar.co.kr"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 08:30:24,991; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":5,"created_at":"2021-07-02T07:37:21.736841Z","updated_at":"2021-07-02T07:37:21.736891Z","test_char":"test_object_5","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372}'
+
+Time: 2021-07-06 08:44:55,774; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Connection": "close",
+	"User-Agent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36",
+	"Host": "18.218.37.167"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 08:44:55,784; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 08:44:55,784; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 08:46:34,007; Level: INFO
+ Request Start
+URL: GET/.env
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"Connection": "keep-alive",
+	"Accept-Encoding": "gzip, deflate",
+	"Accept": "*/*",
+	"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 08:46:34,010; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 08:46:34,011; Level: WARNING
+ Forbidden: /.env
+Time: 2021-07-06 08:46:34,803; Level: ERROR
+ Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 43, in __call__
+    self.print_request_log(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 86, in print_request_log
+    json_body_tmp = json.loads(body_tmp)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 2 (char 1)
+Time: 2021-07-06 09:25:47,281; Level: INFO
+ Request Start
+URL: GET/owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 09:25:47,284; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 09:25:47,285; Level: WARNING
+ Forbidden: /owa/auth/logon.aspx
+Time: 2021-07-06 10:32:44,591; Level: INFO
+ Request Start
+URL: GET/admin/connection/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",
+	"Accept-Encoding": "gzip, deflate",
+	"Accept": "*/*",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 10:32:44,601; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 10:32:44,601; Level: WARNING
+ Forbidden: /admin/connection/
+Time: 2021-07-06 10:32:44,810; Level: INFO
+ Request Start
+URL: GET/favicon.ico
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",
+	"Accept-Encoding": "gzip, deflate",
+	"Accept": "*/*",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 10:32:44,814; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 10:32:44,814; Level: WARNING
+ Forbidden: /favicon.ico
+Time: 2021-07-06 12:59:30,309; Level: INFO
+ Request Start
+URL: GET/robots.txt
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 12:59:30,313; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 12:59:30,313; Level: WARNING
+ Forbidden: /robots.txt
+Time: 2021-07-06 13:20:42,909; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:20:42,913; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:20:42,914; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 13:20:43,028; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:20:43,031; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:20:43,031; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 13:28:55,365; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:28:55,369; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:28:55,369; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 13:28:55,483; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:28:55,486; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:28:55,486; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 13:31:54,088; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:31:54,092; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:31:54,092; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 13:35:23,776; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:35:23,780; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:35:23,780; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 13:48:47,189; Level: INFO
+ Request Start
+URL: GET/?XDEBUG_SESSION_START=phpstorm
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:48:47,192; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:48:47,193; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 13:48:48,433; Level: ERROR
+ Internal Server Error: /Autodiscover/Autodiscover.xml
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 43, in __call__
+    self.print_request_log(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 86, in print_request_log
+    json_body_tmp = json.loads(body_tmp)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Time: 2021-07-06 13:48:49,879; Level: INFO
+ Request Start
+URL: POST/api/jsonws/invoke
+Header:{
+	"Content-Length": "0",
+	"Content-Type": "application/json",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:48:49,883; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:48:49,883; Level: WARNING
+ Forbidden: /api/jsonws/invoke
+Time: 2021-07-06 13:48:50,556; Level: INFO
+ Request Start
+URL: GET/_ignition/execute-solution
+Header:{
+	"Content-Length": "",
+	"Content-Type": "application/json",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:48:50,559; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:48:50,559; Level: WARNING
+ Forbidden: /_ignition/execute-solution
+Time: 2021-07-06 13:48:51,487; Level: ERROR
+ Internal Server Error: /mifs/.;/services/LogService
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 43, in __call__
+    self.print_request_log(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 86, in print_request_log
+    json_body_tmp = json.loads(body_tmp)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Time: 2021-07-06 13:48:52,951; Level: INFO
+ Request Start
+URL: GET/wp-content/plugins/wp-file-manager/readme.txt
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:48:52,954; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:48:52,954; Level: WARNING
+ Forbidden: /wp-content/plugins/wp-file-manager/readme.txt
+Time: 2021-07-06 13:48:54,087; Level: ERROR
+ Internal Server Error: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 43, in __call__
+    self.print_request_log(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 86, in print_request_log
+    json_body_tmp = json.loads(body_tmp)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Time: 2021-07-06 13:48:55,055; Level: INFO
+ Request Start
+URL: GET/console/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:48:55,058; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:48:55,059; Level: WARNING
+ Forbidden: /console/
+Time: 2021-07-06 13:48:56,778; Level: ERROR
+ Internal Server Error: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 43, in __call__
+    self.print_request_log(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 86, in print_request_log
+    json_body_tmp = json.loads(body_tmp)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Time: 2021-07-06 13:48:58,594; Level: INFO
+ Request Start
+URL: GET/index.php?s=/Index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:48:58,597; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:48:58,597; Level: WARNING
+ Forbidden: /index.php
+Time: 2021-07-06 13:48:59,913; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 13:48:59,916; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 13:48:59,917; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 14:17:12,360; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 14:17:12,364; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 14:17:12,364; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 14:17:15,292; Level: INFO
+ Request Start
+URL: GET/favicon.ico
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4 240.111 Safari/537.36",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 14:17:15,295; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 14:17:15,295; Level: WARNING
+ Forbidden: /favicon.ico
+Time: 2021-07-06 14:17:16,901; Level: INFO
+ Request Start
+URL: GET/robots.txt
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4 240.111 Safari/537.36",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 14:17:16,904; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 14:17:16,904; Level: WARNING
+ Forbidden: /robots.txt
+Time: 2021-07-06 14:17:19,711; Level: INFO
+ Request Start
+URL: GET/.well-known/security.txt
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4 240.111 Safari/537.36",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 14:17:19,714; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 14:17:19,714; Level: WARNING
+ Forbidden: /.well-known/security.txt
+Time: 2021-07-06 14:51:19,800; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 14:51:19,803; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 14:51:19,803; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 14:51:20,040; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 14:51:20,043; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 14:51:20,044; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 15:35:13,804; Level: INFO
+ Request Start
+URL: GET/owa/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 15:35:13,807; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 15:35:13,807; Level: WARNING
+ Forbidden: /owa/
+Time: 2021-07-06 15:58:49,520; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 15:58:49,523; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 15:58:49,524; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 16:02:05,538; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 16:02:05,541; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 16:02:05,541; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 19:34:16,542; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 19:34:16,547; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 19:34:16,547; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 20:29:40,899; Level: INFO
+ Request Start
+URL: GET/ReportServer
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 20:29:40,902; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 20:29:40,903; Level: WARNING
+ Forbidden: /ReportServer
+Time: 2021-07-06 21:31:08,639; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:8000"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 21:31:08,643; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 21:31:08,643; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 21:31:08,738; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:8000",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 21:31:08,741; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 21:31:08,742; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 21:42:57,697; Level: INFO
+ Request Start
+URL: GET/login
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 21:42:57,700; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 21:42:57,701; Level: WARNING
+ Forbidden: /login
+Time: 2021-07-06 22:33:18,503; Level: INFO
+ Request Start
+URL: GET/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 22:33:18,506; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 22:33:18,506; Level: WARNING
+ Forbidden: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+Time: 2021-07-06 22:41:48,028; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 22:41:48,032; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 22:41:48,032; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 22:41:48,127; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 22:41:48,130; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 22:41:48,130; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 23:08:49,739; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 23:08:49,743; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 23:08:49,743; Level: WARNING
+ Forbidden: /
+Time: 2021-07-06 23:08:50,047; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-06 23:08:50,050; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-06 23:08:50,051; Level: WARNING
+ Forbidden: /
+Validating models...
+
+System check identified no issues (0 silenced).
+July 07, 2021 - 07:04:34
+Django version 3.2.4, using settings 'server.settings'
+Starting development server at https://0.0.0.0:8000/
+Using SSL certificate: /etc/letsencrypt/archive/support.keyfreecar.co.kr/fullchain3.pem
+Using SSL key: /etc/letsencrypt/archive/support.keyfreecar.co.kr/privkey3.pem
+Quit the server with CONTROL-C.
+Time: 2021-07-07 07:04:51,956; Level: INFO
+ Request Start
+URL: DELETE/db/9/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "6430fdfe-8def-4b5c-b13c-e6d97a7c9fc0",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 07:04:52,036; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:404
+Body:b'{"detail":"Not found."}'
+
+Time: 2021-07-07 07:04:52,036; Level: WARNING
+ Not Found: /db/9/
+Time: 2021-07-07 07:04:55,828; Level: INFO
+ Request Start
+URL: DELETE/db/5/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "7e9d4287-cfca-43b0-9151-f366ed771972",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 07:04:55,856; Level: INFO
+ Response Done
+Header:{
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:204
+Body:b''
+
+Time: 2021-07-07 07:05:00,296; Level: INFO
+ Request Start
+URL: DELETE/db/5/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "f7246c09-15be-4fad-9138-810d5e5e4c37",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 07:05:00,383; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:404
+Body:b'{"detail":"Not found."}'
+
+Time: 2021-07-07 07:05:00,383; Level: WARNING
+ Not Found: /db/5/
+Time: 2021-07-07 07:05:08,769; Level: INFO
+ Request Start
+URL: GET/db/6/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Referer": "https://support.keyfreecar.co.kr/db/6",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "9b04b096-55ac-4372-a69d-72fd74a6527b",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive",
+	"Host": "support.keyfreecar.co.kr"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 07:05:08,828; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":6,"created_at":"2021-07-05T00:51:26.301559Z","updated_at":"2021-07-05T00:51:26.301610Z","test_char":"test_object_6_ssh_check","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372}'
+
+Time: 2021-07-07 07:24:53,457; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 07:24:53,467; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 07:24:53,467; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 07:37:35,631; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "python-requests/2.25.1",
+	"Accept-Encoding": "gzip, deflate",
+	"Accept": "*/*",
+	"Connection": "keep-alive",
+	"X-Datadog-Trace-Id": "16960074784863907685",
+	"X-Datadog-Parent-Id": "6536670056706446297",
+	"X-Datadog-Sampling-Priority": "0"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 07:37:35,634; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 07:37:35,634; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 09:25:28,495; Level: INFO
+ Request Start
+URL: GET/owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 09:25:28,500; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 09:25:28,500; Level: WARNING
+ Forbidden: /owa/auth/logon.aspx
+Time: 2021-07-07 10:00:15,596; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "default",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 10:00:15,599; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 10:00:15,599; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 10:53:03,818; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 10:53:03,822; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 10:53:03,822; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 11:43:12,521; Level: INFO
+ Request Start
+URL: HEAD/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Chrome/54.0 (Windows NT 10.0)",
+	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	"Accept-Charset": "GBK,utf-8;q=0.7,*;q=0.3",
+	"Accept-Language": "zh-CN,zh;q=0.8",
+	"Cache-Control": "max-age=0",
+	"Connection": "keep-alive,close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 11:43:12,524; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 11:43:12,525; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 11:43:13,997; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Chrome/54.0 (Windows NT 10.0)",
+	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	"Accept-Charset": "GBK,utf-8;q=0.7,*;q=0.3",
+	"Accept-Language": "zh-CN,zh;q=0.8",
+	"Cache-Control": "max-age=0",
+	"Connection": "keep-alive,close",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 11:43:14,001; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 11:43:14,001; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 11:43:15,536; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+	"Upgrade-Insecure-Requests": "1",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 11:43:15,540; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 11:43:15,540; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 11:43:21,473; Level: INFO
+ Request Start
+URL: GET/favicon.ico
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Chrome/54.0 (Windows NT 10.0)",
+	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	"Accept-Charset": "GBK,utf-8;q=0.7,*;q=0.3",
+	"Accept-Language": "zh-CN,zh;q=0.8",
+	"Cache-Control": "max-age=0",
+	"Connection": "keep-alive,close",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 11:43:21,477; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 11:43:21,477; Level: WARNING
+ Forbidden: /favicon.ico
+Time: 2021-07-07 11:44:54,871; Level: INFO
+ Request Start
+URL: HEAD/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "ec2-18-218-37-167.us-east-2.compute.amazonaws.com:80",
+	"User-Agent": "Chrome/54.0 (Windows NT 10.0)",
+	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	"Accept-Charset": "GBK,utf-8;q=0.7,*;q=0.3",
+	"Accept-Language": "zh-CN,zh;q=0.8",
+	"Cache-Control": "max-age=0",
+	"Connection": "keep-alive,close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 11:44:54,874; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>HEAD</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://ec2-18-218-37-167.us-east-2.compute.amazonaws.com:80/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-07 11:44:54,874; Level: WARNING
+ Not Found: /
+Time: 2021-07-07 11:45:26,071; Level: INFO
+ Request Start
+URL: HEAD/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "support.keyfreecar.co.kr:80",
+	"User-Agent": "Chrome/54.0 (Windows NT 10.0)",
+	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	"Accept-Charset": "GBK,utf-8;q=0.7,*;q=0.3",
+	"Accept-Language": "zh-CN,zh;q=0.8",
+	"Cache-Control": "max-age=0",
+	"Connection": "keep-alive,close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 11:45:26,075; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>HEAD</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://support.keyfreecar.co.kr:80/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-07 11:45:26,075; Level: WARNING
+ Not Found: /
+Time: 2021-07-07 11:45:27,232; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "support.keyfreecar.co.kr:80",
+	"User-Agent": "Chrome/54.0 (Windows NT 10.0)",
+	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+	"Accept-Charset": "GBK,utf-8;q=0.7,*;q=0.3",
+	"Accept-Language": "zh-CN,zh;q=0.8",
+	"Cache-Control": "max-age=0",
+	"Connection": "keep-alive,close",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 11:45:27,235; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://support.keyfreecar.co.kr:80/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-07 11:45:27,236; Level: WARNING
+ Not Found: /
+Time: 2021-07-07 11:45:28,347; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:80",
+	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+	"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+	"Upgrade-Insecure-Requests": "1",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 11:45:28,350; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 11:45:28,351; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 12:42:36,566; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 12:42:36,569; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 12:42:36,570; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 13:14:03,478; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 13:14:03,481; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 13:14:03,481; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 14:23:07,444; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"Connection": "close",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36",
+	"Accept": "*/*"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 14:23:07,448; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 14:23:07,448; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 14:40:46,973; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 14:40:46,976; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 14:40:46,977; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 14:41:34,935; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0",
+	"Accept": "*/*",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 14:41:34,938; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 14:41:34,938; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 14:41:36,262; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 14:41:36,265; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 14:41:36,265; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 14:41:37,270; Level: INFO
+ Request Start
+URL: GET/favicon.ico
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip",
+	"Connection": "close"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 14:41:37,273; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 14:41:37,273; Level: WARNING
+ Forbidden: /favicon.ico
+Time: 2021-07-07 15:04:39,846; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 15:04:39,850; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 15:04:39,850; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 15:19:18,294; Level: INFO
+ Request Start
+URL: GET/owa/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 15:19:18,297; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 15:19:18,297; Level: WARNING
+ Forbidden: /owa/
+Time: 2021-07-07 20:14:09,906; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 20:14:09,909; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 20:14:09,909; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 20:20:28,497; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 20:20:28,501; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 20:20:28,501; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 20:26:20,894; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 20:26:20,897; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 20:26:20,898; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 20:26:21,550; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 20:26:21,554; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 20:26:21,554; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 21:28:17,877; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 21:28:17,880; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 21:28:17,881; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 21:34:59,623; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "https://gdnplus.com:Gather Analyze Provide."
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 21:34:59,626; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 21:34:59,626; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 21:36:12,947; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 21:36:12,951; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 21:36:12,951; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 21:36:13,066; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 21:36:13,070; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 21:36:13,070; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 22:08:00,982; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:443",
+	"User-Agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 22:08:00,985; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 22:08:00,986; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 22:26:34,500; Level: INFO
+ Request Start
+URL: GET/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 22:26:34,504; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 22:26:34,504; Level: WARNING
+ Forbidden: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+Time: 2021-07-07 23:27:44,936; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:8000"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 23:27:44,942; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 23:27:44,942; Level: WARNING
+ Forbidden: /
+Time: 2021-07-07 23:27:45,036; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:8000",
+	"User-Agent": "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-07 23:27:45,040; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html; charset=utf-8"
+}
+Code:403
+Body:b'Bad Access'
+
+Time: 2021-07-07 23:27:45,040; Level: WARNING
+ Forbidden: /

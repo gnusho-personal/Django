@@ -1,0 +1,27 @@
+Time: 2021-07-04 23:30:09,397; Level: INFO
+ Request Start
+URL: GET/db/3/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "a8a8722a-00ad-4796-b152-a903fb21af7b",
+	"Host": "support.keyfreecar.co.kr",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-04 23:30:09,500; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":3,"created_at":"2021-07-02T07:37:15.730226Z","updated_at":"2021-07-02T07:37:15.730273Z","test_char":"test_object_3","test_email":"joon2387@hanmail.net","test_integer":2016024893,"test_float":372}'
+

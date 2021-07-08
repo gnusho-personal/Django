@@ -1,0 +1,156 @@
+Time: 2021-07-01 07:49:54,971; Level: INFO
+ Request Start
+URL: DELETE/db/7/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "fd72b4f8-21c6-4a59-b2cd-d99d154c05ae",
+	"Host": "support.keyfreecar.co.kr:8000",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-01 07:49:55,008; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:404
+Body:b'{"detail":"Not found."}'
+
+Time: 2021-07-01 07:49:55,009; Level: WARNING
+ Not Found: /db/7/
+Time: 2021-07-01 07:51:25,457; Level: ERROR
+ Internal Server Error: /db/8/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 41, in __call__
+    self.print_request_log(request)
+  File "/home/ubuntu/knocktalkHYWEP/smartkey/server/server/middleware.py", line 83, in print_request_log
+    json_body_tmp = json.loads(b)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Time: 2021-07-01 07:58:30,903; Level: INFO
+ Request Start
+URL: GET/db/4/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "701f38dc-498a-43f0-bcba-dcf1ac7aa193",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive",
+	"Referer": "https://support.keyfreecar.co.kr:8000/db/4",
+	"Host": "support.keyfreecar.co.kr:8000"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-01 07:58:30,947; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:404
+Body:b'{"detail":"Not found."}'
+
+Time: 2021-07-01 07:58:30,948; Level: WARNING
+ Not Found: /db/4/
+Time: 2021-07-01 07:58:34,858; Level: INFO
+ Request Start
+URL: GET/db/8/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "33a5f4b7-af28-4d3b-94b7-fdf39497afac",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive",
+	"Referer": "https://support.keyfreecar.co.kr:8000/db/8",
+	"Host": "support.keyfreecar.co.kr:8000"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-01 07:58:34,876; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":8,"created_at":"2021-07-01T06:49:40.376955Z","updated_at":"2021-07-01T06:49:40.377000Z","test_char":"test_serializer","test_email":"osj2387@naver.com","test_integer":2016024893,"test_float":3}'
+
+Time: 2021-07-01 09:39:58,582; Level: INFO
+ Request Start
+URL: GET/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"Host": "18.218.37.167:8000",
+	"User-Agent": "Mozilla/5.0 zgrab/0.x",
+	"Accept": "*/*",
+	"Accept-Encoding": "gzip"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-01 09:39:58,589; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "text/html"
+}
+Code:404
+Body:b'<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta http-equiv="content-type" content="text/html; charset=utf-8">\n  <title>Page not found at /</title>\n  <meta name="robots" content="NONE,NOARCHIVE">\n  <style type="text/css">\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body>div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n    pre.exception_value { font-family: sans-serif; color: #575757; font-size: 1.5em; margin: 10px 0 10px 0; }\n  </style>\n</head>\n<body>\n  <div id="summary">\n    <h1>Page not found <span>(404)</span></h1>\n    \n    <table class="meta">\n      <tr>\n        <th>Request Method:</th>\n        <td>GET</td>\n      </tr>\n      <tr>\n        <th>Request URL:</th>\n        <td>https://18.218.37.167:8000/</td>\n      </tr>\n      \n    </table>\n  </div>\n  <div id="info">\n    \n      <p>\n      Using the URLconf defined in <code>server.urls</code>,\n      Django tried these URL patterns, in this order:\n      </p>\n      <ol>\n        \n          <li>\n            \n                admin/\n                \n            \n          </li>\n        \n          <li>\n            \n                hw/\n                \n            \n          </li>\n        \n          <li>\n            \n                db/\n                \n            \n          </li>\n        \n      </ol>\n      <p>\n        \n          The empty path\n        \n        didn\xe2\x80\x99t match any of these.\n      </p>\n    \n  </div>\n\n  <div id="explanation">\n    <p>\n      You\xe2\x80\x99re seeing this error because you have <code>DEBUG = True</code> in\n      your Django settings file. Change that to <code>False</code>, and Django\n      will display a standard 404 page.\n    </p>\n  </div>\n</body>\n</html>\n'
+
+Time: 2021-07-01 09:39:58,590; Level: WARNING
+ Not Found: /
+Time: 2021-07-01 23:25:08,953; Level: INFO
+ Request Start
+URL: GET/db/8/
+Header:{
+	"Content-Length": "",
+	"Content-Type": "text/plain",
+	"User-Agent": "PostmanRuntime/7.28.1",
+	"Accept": "*/*",
+	"Postman-Token": "f639a86f-6177-41e9-98d5-dc37f3932653",
+	"Accept-Encoding": "gzip, deflate, br",
+	"Connection": "keep-alive",
+	"Referer": "https://support.keyfreecar.co.kr:8000/db/8",
+	"Host": "support.keyfreecar.co.kr:8000"
+}
+Body:{}
+Cookie:{}
+Request Done
+
+Time: 2021-07-01 23:25:09,022; Level: INFO
+ Response Done
+Header:{
+	"Content-Type": "application/json",
+	"Vary": "Accept",
+	"Allow": "GET, PUT, PATCH, DELETE, HEAD, OPTIONS"
+}
+Code:200
+Body:b'{"id":8,"created_at":"2021-07-01T06:49:40.376955Z","updated_at":"2021-07-01T06:49:40.377000Z","test_char":"test_serializer","test_email":"osj2387@naver.com","test_integer":2016024893,"test_float":3}'
+
