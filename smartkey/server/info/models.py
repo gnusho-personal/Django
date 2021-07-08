@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+'''
+현재 나와있는 field들의 추가적인 옵션은 진행하면서 수정해 나갈 것
+(option + validator + choice 등등)
+'''
+
 from django.core.validators import RegexValidator
 from django.db import models
 import os
@@ -50,8 +55,6 @@ class Products(models.Model):
     
     contractor -> foreign key
     sales_agent -> foreign key
-
-    다음 field들의 추가적인 옵션은 진행하면서 수정해 나갈 것
     '''
 
     serial_number = models.CharField(max_length = 10, primary_key = True)
@@ -71,3 +74,59 @@ class Products(models.Model):
 
     contractor = models.ForeignKey(Contractors, null = True, on_delete = models.SET_NULL)
     sales_agent = models.ForeignKey(Sales_Agents, null = True, on_delete = models.SET_NULL)
+
+class Car_Infos(models.Model):
+    '''
+    [자동차 정보 model]
+    해당 일련번호의 키를 사용하는 자동차들의 정보를 나타내는 table
+    product -> foreign key
+    
+    car_number: 주소와 4자리 수의 번호를 포함한 자동차 번호
+    
+    car_company: 자동차 회사
+    car_type: 자동차 기종
+    car_year: 자동차 연식
+    '''
+
+    product = models.ForeignKey(Products, null = False, on_delete = models.CASCADE)
+
+    number = models.CharField(max_length = 20, primary_key = True)
+    year = models.CharField(max_length = 4)
+    # car type은 choice를 사용해서 구현할 예정
+    #car_type =
+
+class Update_Logs(models.Model):
+    '''
+    [상품관련 로그 저장 model]
+    상태에 따라서 달라지는 값들을 저장하는 table
+
+    date: update 시간 miliseconds 단위까지의 시간을 나타냄
+
+    action: status와 동일
+    before: json 형태로 정리된 이전 값
+    after: json 형태로 정리된 이후 값
+
+    product -> foreign key
+    '''
+
+    product = models.ForeignKey(Products, null = True, on_delete = models.SET_NULL)
+
+    date = models.DateTimeField(auto_now_add = True, primary_key = True)
+
+    # action은 choice를 사용해서 구현할 예정
+    #action = 
+
+    before = models.JSONField(default = '{}')
+    after = models.JSONField(default = '{}')
+
+class Users_Products(models.Model):
+    '''
+    [이용자와 상품 match model]
+    어떤 이용자가 어떤 상품을 사용하는지 M:N관계의 table
+
+    userID: 이용자의 ID (app에서)
+    product -> foreign key
+    '''
+
+    userID = models.CharField(max_length = 30)
+    product = models.ForeignKey(Products, null = True, on_delete = models.SET_NULL)
