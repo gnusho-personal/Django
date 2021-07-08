@@ -45,10 +45,11 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'sslserver',
-    #'certbot_django.server',
+    'phonenumber_field',
 
     'hello_world',
     'testDB',
+    'info',
 ]
 
 MIDDLEWARE = [
