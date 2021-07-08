@@ -3,7 +3,6 @@
 현재 나와있는 field들의 추가적인 옵션은 진행하면서 수정해 나갈 것
 (option + validator + choice 등등)
 '''
-
 from django.core.validators import RegexValidator
 from django.db import models
 import os
@@ -65,8 +64,21 @@ class Products(models.Model):
     password = models.CharField(max_length = 10)
 
     # lineup 과 status는 choice를 사용해서 구현할 예정
-    #lineup =
-    #status = 
+    DEVICE_CHOICES = (
+        ('TS', 'tikeytaka single'),
+        ('TD', 'tikeyyaka dual'),
+        ('KP', 'keyfreecar premium'),
+        ('KC', 'keyfreecar connected'),
+        ('KL', 'keyfreecar connected lite'),
+    )
+    lineup = models.CharField(max_length = 2, choices = DEVICE_CHOICES)
+    
+    STATUS_CHOICES = (
+        ('P', 'production'),
+        ('M', 'movement'),
+        ('S', 'sell'),
+    )
+    status = models.CharField(max_length = 2, choices = STATUS_CHOICES)
 
     firmware_ver = models.CharField(max_length = 25)
 
@@ -92,7 +104,8 @@ class Car_Infos(models.Model):
     number = models.CharField(max_length = 20, primary_key = True)
     year = models.CharField(max_length = 4)
     # car type은 choice를 사용해서 구현할 예정
-    #car_type =
+    # 관련자료 올 때까지 우선 charfield로 사용
+    car_type = models.CharField(max_length = 20)
 
 class Update_Logs(models.Model):
     '''
@@ -112,7 +125,13 @@ class Update_Logs(models.Model):
     date = models.DateTimeField(auto_now_add = True, primary_key = True)
 
     # action은 choice를 사용해서 구현할 예정
-    #action = 
+    ACTION_CHOICES = (
+        ('P', 'production'),
+        ('M', 'movement'),
+        ('S', 'sell'),
+    )
+
+    action = models.CharField(max_length = 2, choices = ACTION_CHOICES)
 
     before = models.JSONField()
     after = models.JSONField()
