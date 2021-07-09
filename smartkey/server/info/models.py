@@ -68,8 +68,8 @@ class Products(models.Model):
     created_at = models.DateTimeField(auto_now_add = True)
     
     MACRegex = RegexValidator(regex = r'^((\w){2}:){5}\w{2}$')
-    bluetooth_MAC = models.CharField(validators = MACRegex, max_length = 18, unique = True)
-    smartdoor_MAC = models.CharField(validators = MACRegex, max_length = 18, unique = True)
+    bluetooth_MAC = models.CharField(validators = [MACRegex], max_length = 18, unique = True)
+    smartdoor_MAC = models.CharField(validators = [MACRegex], max_length = 18, unique = True)
     password = models.CharField(max_length = 17)
 
     # lineup 과 status는 choice를 사용해서 구현할 예정
