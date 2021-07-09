@@ -163,7 +163,7 @@ class Users_Products(models.Model):
     userID = models.CharField(max_length = 30)
     product = models.ForeignKey(Products, null = True, on_delete = models.SET_NULL)
 
-class Feedback(models.Model):
+class Feedbacks(models.Model):
     '''
     [피드백 model]
     이용자로부터 받은 피드백을 저장하기 위한 model
