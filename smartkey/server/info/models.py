@@ -5,7 +5,7 @@
 '''
 from django.core.validators import RegexValidator
 from django.db import models
-import os
+import os, re
 
 class Contractors(models.Model):
     '''
@@ -17,8 +17,11 @@ class Contractors(models.Model):
     callRegex는 call의 valid 여부 검사를 위한 정규표현식.
     '''
     business_name = models.CharField(max_length = 50)
+    # 주소와 관련된 form은 정부에서 지정한 form이 있긴 함
+    # 문제는 그 form을 정부조차 지키지 않는 것
+    # 우선은 그냥 charfield로 받는게 타당하다고 생각이 듬
     address = models.CharField(max_length = 50)
-    callRegex = RegexValidator(regex = r'^\+?1?\d{8,15}$')
+    callRegex = RegexValidator(regex = r'^\d{2,3}-\d{3,4}-\d{4}$')
     call = models.CharField(validators = [callRegex], max_length = 16, unique = True)
 
 class Sales_Agents(models.Model):
@@ -31,9 +34,13 @@ class Sales_Agents(models.Model):
     callRegex는 call의 valid 여부 검사를 위한 정규표현식입니다.
     '''
     business_name = models.CharField(max_length = 50)
+    # 주소와 관련된 form은 정부에서 지정한 form이 있긴 함
+    # 문제는 그 form을 정부조차 지키지 않는 것
+    # 우선은 그냥 charfield로 받는게 타당하다고 생각이 듬
     address = models.CharField(max_length = 50)
-    callRegex = RegexValidator(regex = r'^\+?1?\d{8,15}$')
-    call = models.CharField(validators = [callRegex], max_length = 16, unique = True)
+    # 휴대폰일수도 아직 전화를 사용하고 있을 수 있으므로
+    callRegex = RegexValidator(regex = r'^\d{2,3}-\d{3,4}-\d{4}$')
+    call = models.CharField(validators = [callRegex], max_length = 10)
 
 class Products(models.Model):
     '''
@@ -56,12 +63,14 @@ class Products(models.Model):
     sales_agent -> foreign key
     '''
 
-    serial_number = models.CharField(max_length = 10, primary_key = True)
+    # serial number 만드는 규칙을 정해야함
+    serial_number = models.CharField(max_length = 30, primary_key = True)
     created_at = models.DateTimeField(auto_now_add = True)
     
-    bluetooth_MAC = models.CharField(max_length = 25)
-    smartdoor_MAC = models.CharField(max_length = 25)
-    password = models.CharField(max_length = 10)
+    MACRegex = RegexValidator(regex = r'^((\w){2}:){5}\w{2}$')
+    bluetooth_MAC = models.CharField(validator = MACRegex, max_length = 18, unique = True)
+    smartdoor_MAC = models.CharField(validator = MACRegex, max_length = 18, unique = True)
+    password = models.CharField(max_length = 17)
 
     # lineup 과 status는 choice를 사용해서 구현할 예정
     DEVICE_CHOICES = (
@@ -73,6 +82,8 @@ class Products(models.Model):
     )
     lineup = models.CharField(max_length = 2, choices = DEVICE_CHOICES)
     
+    # STATUS 관련해서는 향후 정확한 사항을 정리해서 수정할 것
+    # 대분류, 소분류로 나눌지와 그 이후의 방식도 생각해야함
     STATUS_CHOICES = (
         ('P', 'production'),
         ('M', 'movement'),
@@ -80,6 +91,7 @@ class Products(models.Model):
     )
     status = models.CharField(max_length = 2, choices = STATUS_CHOICES)
 
+    # Firmware version의 정확한 form 확인 할 것
     firmware_ver = models.CharField(max_length = 25)
 
     buyerID = models.CharField(max_length = 15)
@@ -99,7 +111,9 @@ class Car_Infos(models.Model):
     car_type: 자동차 기종
     car_year: 자동차 연식
     '''
-    product = models.ForeignKey(Products, null = False, on_delete = models.CASCADE)
+    # 제품을 교체하는 상황을 위해서 null = True/ on_delete = SET_NULL로 설정함
+    # 문제가 생기면 수정을 할 수 있는 기능을 줄지 아니면 싹다 지우고 다시 등록하게 할지 고민해봐야 함
+    product = models.ForeignKey(Products, null = True, on_delete = models.SET_NULL)
 
     number = models.CharField(max_length = 20, primary_key = True)
     year = models.CharField(max_length = 4)
@@ -124,7 +138,9 @@ class Update_Logs(models.Model):
 
     date = models.DateTimeField(auto_now_add = True, primary_key = True)
 
-    # action은 choice를 사용해서 구현할 예정
+    # ACTION 관련해서는 향후 정확한 사항을 정리해서 수정할 것
+    # 대분류, 소분류로 나눌지와 그 이후의 방식도 생각해야함
+    # product의 action과 계를 같이 함
     ACTION_CHOICES = (
         ('P', 'production'),
         ('M', 'movement'),
