@@ -16,7 +16,7 @@ stream_handler = logging.StreamHandler()
 stream_handler.setLevel(logging.INFO)
 stream_handler.setFormatter(formatter)
 
-# log를 file에 저장하면서 maxbytes만큼만 저장하고 다른 파일에 내용을 백없하는 rotatingfilehandler 설정
+# log를 file에 저장하면서 maxbytes만큼만 저장하고 다른 파일에 내용을 backup하는 rotatingfilehandler 설정
 # backupcout 만큼 backupfile 생성 // debug.log에 .(숫자) 넣어서 파일 만들어줌 필요하면 자동으로 숫자를 뒤로 밀어줌
 
 #file_handler = RotatingFileHandler(path, maxBytes = 1024 * 4, backupCount = 5)
@@ -39,6 +39,9 @@ class LoggingMiddleware:
         ]
 
     def __call__(self, request):
+
+        self.print_request_log(request)
+
         response = None
             
         if not response:
@@ -61,13 +64,12 @@ class LoggingMiddleware:
             return str(value)
         raise TypeError('not JSON serializable')
 
-    def is_json(self, obj):
+    def is_json(obj):
         try:
             json_object = json.loads(obj)
             iterator = iter(json_object)
         
-        except Exception as e: 
-            return False
+        except Exception as e: return False
         return True
 
     def print_request_log(self, request):
@@ -136,12 +138,10 @@ class LoggingMiddleware:
 
         if '18.218.37.167' in request.headers['host']: 
             return HttpResponse('Bad Access', status = status.HTTP_403_FORBIDDEN)
-
+        
         # 향후 추가
         #if request.headers['content-type'] is not 'application/json':
         #    return HttpResponse('Bad Data Type', status = status.HTTP_403_FORBIDDEN)
-
-        self.print_request_log(request)
 
         if (request.method in self.METHOD) and any(valid_urls):
             response_format = {
