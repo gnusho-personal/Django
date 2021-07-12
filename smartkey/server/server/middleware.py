@@ -39,9 +39,6 @@ class LoggingMiddleware:
         ]
 
     def __call__(self, request):
-
-        self.print_request_log(request)
-
         response = None
             
         if not response:
@@ -64,6 +61,15 @@ class LoggingMiddleware:
             return str(value)
         raise TypeError('not JSON serializable')
 
+    def is_json(obj):
+        try:
+            json_object = json.loads(obj)
+            iterator = iter(json_object)
+        
+        except Exception as e: 
+            return False
+        return True
+
     def print_request_log(self, request):
         # URL 관련 부분
         full_url = str(request.method) + str(request.get_full_path())
@@ -82,7 +88,7 @@ class LoggingMiddleware:
         # 현재는 model이 만들어지지 않았으니까 우선은 이렇게 사용
         #b = request.body.decode('utf-8')
         body_tmp = request.body
-        if len(body_tmp) == 0: body_tmp = '{}'
+        #if len(body_tmp) == 0: body_tmp = '{}'
         json_body_tmp = json.loads(body_tmp)
         json_body = json.dumps(json_body_tmp, indent='\t')
 
@@ -130,10 +136,14 @@ class LoggingMiddleware:
 
         if '18.218.37.167' in request.headers['host']: 
             return HttpResponse('Bad Access', status = status.HTTP_403_FORBIDDEN)
-        
+
+        if is_json(request.body) == False:
+            return HttpResponse('Bad Data Type', status = status.HTTP_403_FORBIDDEN)
         # 향후 추가
         #if request.headers['content-type'] is not 'application/json':
         #    return HttpResponse('Bad Data Type', status = status.HTTP_403_FORBIDDEN)
+
+        self.print_request_log(request)
 
         if (request.method in self.METHOD) and any(valid_urls):
             response_format = {

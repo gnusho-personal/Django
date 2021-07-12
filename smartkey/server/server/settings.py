@@ -45,7 +45,6 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'sslserver',
-    'phonenumber_field',
 
     'hello_world',
     'testDB',
