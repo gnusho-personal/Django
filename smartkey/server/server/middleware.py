@@ -98,7 +98,7 @@ class LoggingMiddleware:
         if self.is_json(body_tmp) == True:
             json_body_tmp = json.loads(body_tmp)
             json_body = json.dumps(json_body_tmp, indent='\t')
-        else: json_body = body_tmp
+        else: json_body = body_tmp.encode()
 
         # Cookie 관련 부분
         cookie_dict = {}
