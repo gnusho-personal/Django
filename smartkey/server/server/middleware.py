@@ -61,7 +61,7 @@ class LoggingMiddleware:
             return str(value)
         raise TypeError('not JSON serializable')
 
-    def is_json(obj):
+    def is_json(self, obj):
         try:
             json_object = json.loads(obj)
             iterator = iter(json_object)
