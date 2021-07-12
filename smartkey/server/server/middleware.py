@@ -88,7 +88,7 @@ class LoggingMiddleware:
         # 현재는 model이 만들어지지 않았으니까 우선은 이렇게 사용
         #b = request.body.decode('utf-8')
         body_tmp = request.body
-        #if len(body_tmp) == 0: body_tmp = '{}'
+        if len(body_tmp) == 0: body_tmp = '{}'
         json_body_tmp = json.loads(body_tmp)
         json_body = json.dumps(json_body_tmp, indent='\t')
 
@@ -138,8 +138,8 @@ class LoggingMiddleware:
             return HttpResponse('Bad Access', status = status.HTTP_403_FORBIDDEN)
 
         # 향후 추가
-        if 'json' not in request.headers['content-type']:
-            return HttpResponse('Bad Data Type', status = status.HTTP_403_FORBIDDEN)
+        #if request.headers['content-type'] is not 'application/json':
+        #    return HttpResponse('Bad Data Type', status = status.HTTP_403_FORBIDDEN)
 
         self.print_request_log(request)
 
