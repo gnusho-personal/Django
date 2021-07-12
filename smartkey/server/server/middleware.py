@@ -90,9 +90,11 @@ class LoggingMiddleware:
         # 현재는 model이 만들어지지 않았으니까 우선은 이렇게 사용
         #b = request.body.decode('utf-8')
         body_tmp = request.body
-        if len(body_tmp) == 0: body_tmp = '{}'
-        json_body_tmp = json.loads(body_tmp)
-        json_body = json.dumps(json_body_tmp, indent='\t')
+        json_body = ''
+
+        if is_json(body_tmp) == True:
+            json_body_tmp = json.loads(body_tmp)
+            json_body = json.dumps(json_body_tmp, indent='\t')
 
         # Cookie 관련 부분
         cookie_dict = {}
