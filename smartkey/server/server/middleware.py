@@ -64,7 +64,7 @@ class LoggingMiddleware:
             return str(value)
         raise TypeError('not JSON serializable')
 
-    def is_json(obj):
+    def is_json(self, obj):
         try:
             json_object = json.loads(obj)
             iterator = iter(json_object)
@@ -92,9 +92,13 @@ class LoggingMiddleware:
         body_tmp = request.body
         json_body = ''
 
-        if is_json(body_tmp) == True:
+        # body가 json형식인지 확인
+        # 내용물에 대한 건 향후 serializer를 통해서 구현될 예정
+        # 우선은 파일 형식만 check 하자
+        if self.is_json(body_tmp) == True:
             json_body_tmp = json.loads(body_tmp)
             json_body = json.dumps(json_body_tmp, indent='\t')
+        else: json_body = body_tmp
 
         # Cookie 관련 부분
         cookie_dict = {}
